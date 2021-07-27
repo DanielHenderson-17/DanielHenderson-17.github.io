@@ -1,3 +1,40 @@
 body {
-    background-color: rgb(179, 217, 230);
+    background-color: #2a2f30;
   }
+
+header {
+    padding-bottom: 20px;
+    background-color: #2a2f30;
+    height: 50px;
+    width: 100%;
+    vertical-align: middle;
+}
+nav {
+    margin: auto;
+    display: flex;             
+    align-items: center; 
+    justify-content: center;      
+}
+ul {
+    padding-left: 10px;
+    display: inline-block;
+    list-style-type: none;
+    text-decoration: none;
+}
+.navlink {
+    display: inline-block;
+    margin: 17px 10px 0 10px;
+}
+.navlink a {
+    text-decoration: none;
+    color: #fc7930ff;
+}
+.nav1 {
+    margin-bottom: 10px;
+    list-style-type: none;
+}
+.homeicon {
+    display: inline-block;
+    width: 40px;
+    margin-top: 10px;
+}
