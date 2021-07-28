@@ -68,6 +68,10 @@ h3 {
     text-align: center;
 }
 
+header {
+    height: 95px;
+}
+
 h2 {
     font-family: sans-serif;
     display: inline-block;
