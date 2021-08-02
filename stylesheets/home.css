@@ -3,9 +3,9 @@
     padding:0; 
     }
 body {
-    background-color: #2a2f30;
+    background-size: 100%;
+    background-color: #b4b4b4;
   }
-
 header {
     background-color: #2a2f30;
     padding-bottom: 20px;
@@ -14,10 +14,11 @@ header {
     vertical-align: middle;
 }
 nav {
+    background-image: url("https://images.squarespace-cdn.com/content/v1/5570c758e4b072434aa0b518/1478545350810-9OEHY5HE2DPFFKUSCEFV/blue+box+background+copy+copy.jpg?format=2500w");
+    background-size: 30%;
     margin: auto;
     display: flex;             
-    align-items: center; 
-    justify-content: center;      
+    align-items: center;    
 }
 ul {
     align-items: right;
@@ -25,6 +26,8 @@ ul {
     display: inline-block;
     list-style-type: none;
     text-decoration: none;
+    margin-bottom: 10px;
+    margin-left: 40px;
 }
 .navlink {
     display: inline-block;
@@ -33,7 +36,7 @@ ul {
 }
 .navlink a {
     text-decoration: none;
-    color: #fc7930ff;
+    color: rgb(209, 209, 209);
 }
 .nav1 {
     margin-bottom: 10px;
@@ -42,10 +45,62 @@ ul {
 .homeicon {
     display: inline-block;
     width: 40px;
-    margin-top: 10px;
+    margin: 10px 10px 0px;
 }
-
+.photoquote {
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    height: 230px;
+    color: #2a2f30;
+}
+.photoquote img {
+    margin: 0 auto;
+    display: inline-block;
+    padding:10px;
+    width: 200px;
+    border-radius: 50% ;
+}
+.photoquote p {
+    width: 500px;
+    margin: 0 auto;
+    font-size: 30px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+.aboutme {
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    background-image: url("https://images.squarespace-cdn.com/content/v1/5570c758e4b072434aa0b518/1478545350810-9OEHY5HE2DPFFKUSCEFV/blue+box+background+copy+copy.jpg?format=2500w");
+    background-size: 80%;
+    background-color: #2a2f30;
+    padding-top: 20px;
+    color:rgb(209, 209, 209);
+    height: 300px;
+}
+.aboutme p {
+    margin-top: 10px;
+    font-size: 20px;
+}
+.bio {
+    width: 600px;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+.slides {
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+.mySlides {
+    border-radius: 4px;
+    display:none;
+}
 h1 {
-    color: #fc7930ff;
+    color: rgb(209, 209, 209);
 }
 
