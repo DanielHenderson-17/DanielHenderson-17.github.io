@@ -20,6 +20,9 @@ nav {
     display: flex;             
     align-items: center;    
 }
+nav h1{
+    color: rgb(219, 219, 219);
+}
 ul {
     align-items: right;
     padding-left: 10px;
@@ -84,6 +87,9 @@ ul {
     margin-top: 10px;
     font-size: 20px;
 }
+.aboutme h1 {
+    color: rgb(219, 219, 219);
+}
 .bio {
     width: 600px;
     justify-content: center;
@@ -101,5 +107,26 @@ ul {
     display:none;
 }
 .career{
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    padding-top: 20px;
     height: 300px;
+}
+.carrer p {
+    margin-top: 10px;
+    font-size: 20px;
+}
+.devsum{
+    width: 600px;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 20px;
+}
+.firstproj{
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 20px;
 }
