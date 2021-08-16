@@ -29,26 +29,27 @@ nav h1{
 }
 ul {
     display: flex;
-    width: 90%;
+    width: 78%;
     align-items: center;
     justify-content: center;
+    text-align: right;
     list-style-type: none;
     text-decoration: none;
-    margin: 0 auto;
 }
 ul a {
     display: flex;
 }
 ul img {
     display: inline-block;
+    width: 30px;
     margin: 0 auto;
     align-items: center;
     justify-content: center;
 }
 li img {
-    max-width: 90%;
+    width: 30px;
 }
-h4 {
+h6 {
     padding-top: 15px;
     text-align: center;
     display: flex;
@@ -60,7 +61,7 @@ h4 {
 }
 .navlink {
     display: flex;
-    width: 21%;
+    width: 10%;
     font-family: sans-serif;
 }
 .navlink a {
@@ -147,6 +148,22 @@ button {
     font-size: 1vw;
     width: 20%;
 }
+@media screen and (max-width: 1764px) {
+    h6 {
+        font-size: 8px;
+    }
+    ul {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 1530px) {
+    h6 {
+        display: none;
+    }
+    ul {
+        width: 100%;
+    }
+}
 @media screen and (max-width: 837px) {
     button {
       font-size: 6px;
@@ -158,11 +175,29 @@ button {
     .row {
         display: block;
     }
-    h4 {
+    h6 {
         display: none;
     }
+    body {
+        max-width: fit-content;
+    }
+    header {
+        height: 120px;
+    }
     nav {
-        height: 50px;
+       display: block;
+       width: 100%; 
+    }
+    .zombiebanner {
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        margin: 0 auto;
+    }
+    ul {
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
     }
   }
 .status {
