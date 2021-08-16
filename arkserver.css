@@ -33,27 +33,33 @@ h2 {
 
 
 .serverstatusblock {
-    display: flex;
+    display: block;
     align-items: center;
     justify-content: center;
     background-color: #171816;
     padding: 5px;
-    margin: 0px 40px 0px 50px;
-    width: 48%;
-    height: 190px;
+    margin: 0px 20px 0px 20px;
+    width: 20%;
+    height: 23%;
     border: 1px solid #514e4a;
     border-radius: 7px;
 }
 .bannerblock {
-    width: 32%;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0px;
+    width: 95%;
 }
 .banner {
+    padding: 0px;
     width: 100%;
     border: 1px solid #514e4a;
     border-radius: 3px;
 }
 .banner img {
-    max-width: 251px;
+    padding: 0px;
+    width: 279px;
     outline: 1px solid #514e4a;
 }
 .serverstatusblock a {
@@ -63,16 +69,12 @@ h2 {
 .serverstatusblock a:link {
     text-decoration: none;
   }
-.buttonandsummary {
+.buttonandstatus {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
 }
-.buttonandsummary p {
-    width: 73%;
-}
-
 button {
     display: inline-block;
     background-color: rgb(5, 143, 5);
@@ -80,13 +82,23 @@ button {
     margin: 0px auto;
     margin-bottom: 0px;
     border-radius: 4px;
-    font-size: 16px;
+    font-size: 1vw;
     width: 20%;
 }
+@media screen and (max-width: 600px) {
+    button {
+      font-size: 6px;
+    }
+  }
 .status {
-    margin-bottom: 20px;
+    width: 75%;
+    padding: 0px;
 }
-
+.status img {
+    border-radius: 4px;
+    padding: 0px;
+    width: 80%;
+}
 p {
     margin-top: 10px;
     font-size: 12px;
