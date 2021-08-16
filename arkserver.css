@@ -7,82 +7,108 @@
 body {
     background-color: #2a2f30;
   }
-
+header {
+    margin: 0 auto 5px auto;
+    justify-content: center;
+    text-align: center;
+}
 h1 {
     color: #fc7930ff;
     margin: 0 auto;
     text-align: center;
 }
+h2 {
+    text-align: center;
+    margin: 5px auto;
+    font-family: sans-serif;
+    color: #fc7930ff;
+}
+
+.row {
+    display: flex;
+    margin: 5px auto;
+    align-items: center;
+    justify-content: center;
+}
+
 
 .serverstatusblock {
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #171816;
     padding: 5px;
-    margin: 5px;
-    width: 720px;
-    height: 295px;
+    margin: 0px 40px 0px 50px;
+    width: 48%;
+    height: 190px;
     border: 1px solid #514e4a;
     border-radius: 7px;
 }
-
-.thumbnail {
-    margin-left: 11px;
-    width: 270px;
-    height: 160px;
+.bannerblock {
+    width: 32%;
+}
+.banner {
+    width: 100%;
+    border: 1px solid #514e4a;
+    border-radius: 3px;
+}
+.banner img {
     outline: 1px solid #514e4a;
 }
+.serverstatusblock a {
+    height: 30%;
+}
 
+.serverstatusblock a:link {
+    text-decoration: none;
+  }
 .buttonandsummary {
-    display: inline-block;
-    max-width: 410px;
-    height:100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.buttonandsummary p {
+    width: 73%;
 }
 
 button {
-    display: block;
+    display: inline-block;
     background-color: rgb(5, 143, 5);
     color: white;
-    margin: 0 auto;
-    margin-bottom: 40px;
+    margin: 0px auto;
+    margin-bottom: 0px;
     border-radius: 4px;
     font-size: 16px;
-    width: 200px;
+    width: 20%;
+}
+.status {
+    margin-bottom: 20px;
+}
+
+p {
+    margin-top: 10px;
+    font-size: 12px;
+    font-family: sans-serif;
+    color: #fc7930ff;
+    text-align: right;
+}
+h5 img {
+    width: 20px;
 }
 
 button a, button a:visited {
     text-decoration: none;
     color: white;
 }
-
-p {
-    font-size: 10px;
-    color: #fc7930ff;
-    font-family: sans-serif;
-    height: 65px;
-}
-
-h3 {
+h5 {
     font-family: sans-serif;
     color: #fc7930ff;
-    margin: 0px;
+    margin: 0 auto;
     text-align: center;
 }
-
-header {
-    height: 95px;
-}
-
-h2 {
-    font-family: sans-serif;
-    display: inline-block;
-    font-family: sans-serif;
-    color: #fc7930ff;
-    margin: 0 0 0 160px;
-    text-align: center;
-}
-
 .zombielynxlogo {
     display: inline-block;
-    width: 490px;
+    width: 25%;
     margin-top: 0px;
 }
