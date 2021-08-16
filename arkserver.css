@@ -89,6 +89,13 @@ button {
     button {
       font-size: 6px;
     }
+    .serverstatusblock {
+        margin: 0 auto;
+        width: 50%;
+    }
+    .row {
+        display: block;
+    }
   }
 .status {
     width: 75%;
