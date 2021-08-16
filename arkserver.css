@@ -53,6 +53,7 @@ h2 {
     border-radius: 3px;
 }
 .banner img {
+    max-width: 251px;
     outline: 1px solid #514e4a;
 }
 .serverstatusblock a {
