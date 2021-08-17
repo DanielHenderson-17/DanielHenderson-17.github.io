@@ -472,3 +472,93 @@ hr {
         display: none;
     }
 }
+
+@media screen and (max-width: 510px) {
+    nav {
+        display: flex;
+    }
+    nav h1 {
+        display: none;
+    }
+    nav img {
+        display: none;
+    }
+    ul {
+        margin: 0 auto 10px auto;
+        vertical-align: center;
+        text-align: center;
+    }
+    .photoquote img {
+        width: 30%;
+    }
+    h1 {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .aboutme h1 {
+        margin: 0 auto;
+    }
+    .bio p, .photoquote p, .devsum p, .timeline p, .singleproj p, .skillitems p {
+        font-size: 9px;
+        padding: 10px;
+    }
+    .aboutme, .career {
+        padding: 10px 0px 0px 0px;
+    }
+    .bio, .devsum, .timelinesummary {
+        width: 50%;
+    }
+    .career img {
+        display: none;
+    }
+    .career p {
+        width: 80%;
+        align-items: center;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .devsum {
+        width: 100%;
+    }
+    .timeline {
+        display: block;
+        padding: 10px 0;
+    }
+    .timelinesummary {
+        margin: 0 auto;
+        width: 100%;
+        display: block;
+        padding-bottom: 10px;
+    }
+    .timeline h1 {
+        width: 80%;
+    }
+    .timeline p {
+        display: none;
+    }
+    .calendarcontainer {
+        width: 90%;
+    }
+    .calendar {
+        width: 90%;
+    }
+    .banner h1 {
+        font-size: 16px;
+    }
+    .skillitems h3 {
+        font-size: 16px;
+        display: block;
+    }
+    .singleproj {
+        display: block;
+    }
+    .projimg {
+        margin: 20px auto;
+    }
+    .singleproj p {
+        display: none;
+    }
+    .links {
+        display: none;
+    }
+}
