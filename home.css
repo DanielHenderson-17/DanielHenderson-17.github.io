@@ -483,7 +483,11 @@ hr {
     nav img {
         display: none;
     }
+    .homeicon {
+        width: 20px;
+    }
     ul {
+        font-size: 9px;
         margin: 0 auto 10px auto;
         vertical-align: center;
         text-align: center;
