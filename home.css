@@ -257,7 +257,7 @@ ul {
     width: 50px;
 }
 .gif {
-    width: 80;
+    width: 80%;
 }
 hr {
     text-align: center;
@@ -484,7 +484,7 @@ hr {
         display: none;
     }
     .homeicon {
-        width: 20px;
+        width: 20 px;
     }
     ul {
         font-size: 9px;
