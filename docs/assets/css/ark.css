@@ -147,15 +147,6 @@ button {
     font-size: 1vw;
     width: 20%;
 }
-
-.discordembed{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 10px auto 0px auto;
-    border: 1px solid #514e4a;
-    border-radius: 4px;
-}
 @media screen and (max-width: 1764px) {
     h6 {
         font-size: 8px;
