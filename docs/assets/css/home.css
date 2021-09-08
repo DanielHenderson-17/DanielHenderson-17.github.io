@@ -506,7 +506,7 @@ hr {
     display: none;
   }
 }
-*/ @media screen and (max-width: 510px) {
+@media screen and (max-width: 510px) {
   nav {
     display: flex;
   }
@@ -596,6 +596,9 @@ hr {
   }
   .singleproj {
     display: block;
+  }
+  .singleprojsum {
+    width: 100%;
   }
   .projimg {
     margin: 20px auto;
