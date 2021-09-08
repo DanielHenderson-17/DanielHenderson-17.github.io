@@ -238,7 +238,6 @@ ul {
   justify-content: center;
   text-align: center;
   margin: 0 auto;
-  padding-bottom: 20px;
 }
 .links {
   display: flex;
@@ -486,20 +485,27 @@ hr {
     display: block;
   }
   .singleproj {
+    width: 90%;
     display: block;
+  }
+  .singleprojsum {
+    width: 90%;
   }
   .projimg {
     margin: 20px auto;
   }
+  .links img {
+    width: 20px;
+  }
   .singleproj p {
-    display: none;
+    /* display: none; */
+    width: 100%;
   }
   .links {
-    display: none;
+    /* display: none; */
   }
 }
-
-@media screen and (max-width: 510px) {
+*/ @media screen and (max-width: 510px) {
   nav {
     display: flex;
   }
