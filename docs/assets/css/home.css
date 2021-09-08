@@ -2,7 +2,9 @@
   margin: 0;
   padding: 0;
 }
+
 body {
+  overflow-x: hidden;
   background-size: 100%;
   background-color: #b4b4b4;
   font-family: sans-serif;
@@ -28,7 +30,7 @@ nav h1 {
 }
 ul {
   align-items: right;
-  padding-left: 10px;
+  padding-left: 5px;
   display: inline-block;
   list-style-type: none;
   text-decoration: none;
@@ -73,7 +75,7 @@ ul {
   border-radius: 50%;
 }
 .photoquote p {
-  width: 26%;
+  width: 40%;
   margin: 0 auto;
   font-size: 30px;
   display: inline-block;
@@ -213,7 +215,7 @@ ul {
   width: 50%;
   justify-content: center;
   text-align: center;
-  margin: 0 auto;
+  margin: 0 10px;
 }
 .singleproj p {
   text-align: center;
@@ -290,6 +292,26 @@ hr {
   margin: 10px auto;
   font-size: 24px;
 }
+.educationBlock {
+  display: flex;
+  margin: 40px auto;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+}
+.schoolblock {
+  width: 40%;
+}
+.schoolblock h1,
+.schoolblock h3 {
+  width: 100%;
+  margin: 0 auto;
+}
+.schoolblock h3 {
+  font-weight: 300;
+  margin: 5px 0;
+}
 @media screen and (max-width: 1200px) {
   h1 {
     font-size: 30px;
@@ -333,7 +355,7 @@ hr {
   }
   ul {
     font-size: 12px;
-    width: 100%;
+    width: 95%;
   }
   .photoquote {
     width: fit-content;
@@ -542,11 +564,12 @@ hr {
   .singleproj p,
   .skillitems p {
     font-size: 9px;
-    padding: 10px;
+    padding: 10px 0px;
   }
   .aboutme,
   .career {
     padding: 10px 0px 0px 0px;
+    width: 100%;
   }
   .bio,
   .devsum,
@@ -610,5 +633,19 @@ hr {
   }
   .links {
     display: none;
+  }
+  .educationBlock {
+    display: block;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+  }
+  .schoolblock {
+    margin: 20px auto;
+    width: 100%;
+    font-size: 16px;
+  }
+  .schoolblock h3 {
+    font-size: 14px;
   }
 }
