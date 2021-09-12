@@ -1552,6 +1552,11 @@ h3.quote::before {
         margin: 0 auto;
     }
   }
+
+  @media screen and (max-width: 533px) {
+    .serverstatusblock {
+      width: 80%;
+    }
 .status {
     width: 75%;
     padding: 0px;
