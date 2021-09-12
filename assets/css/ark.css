@@ -13,6 +13,7 @@ header {
     width: 100%;
 }
 nav {
+    display: flex;
     background-image: url("https://images.squarespace-cdn.com/content/v1/5570c758e4b072434aa0b518/1478545350810-9OEHY5HE2DPFFKUSCEFV/blue+box+background+copy+copy.jpg?format=2500w");
     background-size: 30%;
     width: 100%;
@@ -20,18 +21,25 @@ nav {
     text-align: center;
     margin: 0 auto;
     display: flex;            
-    align-items: center; 
-    border-bottom: 1px solid #b4b4b4;   
+    align-items: center;
+     
+     
 }
 nav h1{
     color: rgb(219, 219, 219);
 }
+
+.logocontainer {
+    width: 24%;
+    margin-left: 5px;
+}
+
 ul {
     display: flex;
-    width: 78%;
-    align-items: center;
-    justify-content: center;
-    text-align: right;
+    position: relative;
+    top: 5px;
+    left: 10px;
+    width: 75%;
     list-style-type: none;
     text-decoration: none;
 }
@@ -39,24 +47,21 @@ ul a {
     display: flex;
 }
 ul img {
-    display: inline-block;
-    width: 30px;
     margin: 0 auto;
     align-items: center;
     justify-content: center;
 }
 li img {
+    display: block;
     width: 30px;
+    height: 30px;
+    padding: 5px;
 }
-h6 {
-    padding-top: 15px;
+h5 {
+    color: white;
     text-align: center;
-    display: flex;
     width: 75%;
-    justify-content: center;
-    align-items: center;
     margin: 0 auto;
-    vertical-align: center;
 }
 .navlink {
     display: flex;
@@ -64,6 +69,9 @@ h6 {
     font-family: sans-serif;
 }
 .navlink a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-decoration: none;
     color: rgb(209, 209, 209);
 }
@@ -83,7 +91,7 @@ h2 {
     text-align: center;
     margin: 5px auto;
     font-family: sans-serif;
-    color: #fc7930ff;
+    color: rgb(250, 248, 248);
 }
 
 .row {
@@ -139,6 +147,8 @@ h2 {
 }
 button {
     display: inline-block;
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/87/470/339/abstract-grunge-texture-old-wallpaper-preview.jpg);
+    background-size: contain;
     background-color: rgb(5, 143, 5);
     color: white;
     margin: 0px auto;
@@ -215,20 +225,13 @@ p {
     color: #fc7930ff;
     text-align: right;
 }
-h5 img {
-    width: 20px;
-}
+
 
 button a, button a:visited {
     text-decoration: none;
     color: white;
 }
-h5 {
-    font-family: sans-serif;
-    color: #fc7930ff;
-    margin: 0 auto;
-    text-align: center;
-}
+
 .zombielynxlogo {
     display: inline-block;
     width: 25%;
