@@ -1553,10 +1553,7 @@ h3.quote::before {
     }
   }
 
-  @media screen and (max-width: 533px) {
-    .serverstatusblock {
-      width: 80%;
-    }
+  
 .status {
     width: 75%;
     padding: 0px;
@@ -1598,6 +1595,11 @@ hr {
         color: white;
     }
 }
+
+@media screen and (max-width: 533px) {
+  .serverstatusblock {
+    width: 80%;
+  }
 
 
 
