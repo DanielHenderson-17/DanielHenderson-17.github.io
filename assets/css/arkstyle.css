@@ -1360,6 +1360,9 @@ h3.quote::before {
   .header-top .header-top-info a {
     margin-left: 0px;
   }
+  section {
+    display: none;
+  }
   .navbar-toggler {
     color: #fff;
   }
@@ -1413,6 +1416,9 @@ h3.quote::before {
 @media (max-width: 768px) {
   .navbar-toggler {
     color: #fff;
+  }
+  section {
+    display: none;
   }
   .bg-about {
     display: none;
@@ -1520,13 +1526,20 @@ h3.quote::before {
     ul {
         width: 100%;
     }
+    section {
+      display: none;
+    }
 }
+
 @media screen and (max-width: 1530px) {
     h6 {
         display: none;
     }
     ul {
         width: 100%;
+    }
+    section {
+      display: none;
     }
 }
 @media screen and (max-width: 837px) {
@@ -1567,6 +1580,9 @@ h3.quote::before {
         justify-content: center;
         align-items: center;
         margin: 0 auto;
+    }
+    section {
+      display: none;
     }
   }
 
@@ -1611,13 +1627,17 @@ hr {
         display: none;
         color: white;
     }
+  
 }
 
 @media screen and (max-width: 533px) {
   .serverstatusblock {
     width: 80%;
   }
-
+  section {
+    display: none;
+  }
+}
 
 
 /*# sourceMappingURL=maps/style.css.map */
