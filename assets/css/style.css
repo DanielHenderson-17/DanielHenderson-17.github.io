@@ -580,6 +580,17 @@ section {
   width: 50%;
 }
 
+.portfolio-wrap img {
+  border: 1px solid rgb(47, 55, 63);
+  border-radius: 10px;
+  height: 220px;
+  width: 100%;
+}
+
+.portfolio-wrap{
+  box-shadow: 8px 8px 5px rgb(14, 13, 13);
+}
+
 .portfolio .portfolio-wrap .portfolio-links a:hover {
   background: rgba(20, 157, 221, 0.95);
 }
