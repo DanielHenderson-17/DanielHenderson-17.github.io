@@ -331,19 +331,23 @@
     </section><!-- End Skills Section -->
     <!-- ======= Portfolio Section ======= -->
     <section id="portfolio" class="portfolio section-bg" style="background-image: url(https://images.squarespace-cdn.com/content/v1/5570c758e4b072434aa0b518/1478545350810-9OEHY5HE2DPFFKUSCEFV/blue+box+background+copy+copy.jpg?format=2500w); background-size: cover;">
-      <div class="container" >
+      <div class="container">
 
         <div class="section-title">
           <h2 style="color: white;">Portfolio</h2>
           <p style="color: white;">This is just a few of the projects I have done since graduating Coding Dojo Bootcamp.</p>
         </div>
 
+
+        <div class="slideshow-container">
+          <!-- ======= Slide 1 ======= -->
+          <div class="mySlides" style="width: 100%;">
         <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <h3 style="margin: 0 auto; text-align: center;">
               <img
-                style="width: 74%"
+              style="width: 70%;"
                 src="./assets/img/expenseitlogo.png"
                 alt="Expense it!"
               />
@@ -369,7 +373,7 @@
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <h3 style="margin: 0 auto; text-align: center;">
               <img
-                style="width: 80%; margin: 39px;"
+              style="width: 70%;"
                 src="./assets/img/weatherapplogo.png"
                 alt="Weather App"
               />
@@ -389,7 +393,7 @@
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <h3 style="margin: 0 auto; text-align: center;">
               <img
-                style="width: 70%"
+                style="width: 70%;"
                 src="./assets/img/apiflixlogo.png"
                 alt="ApiFLIX"
               />
@@ -420,7 +424,7 @@
             <h3 style="margin: 0 auto; text-align: center;">
               <img
                 style="width: 70%"
-                src="./assets/img/Simply_N_Stock_Logo2.png"
+                src="./assets/img/simplynstocklogo.png"
                 alt="Simply N Stock"
               />
             </h3>
@@ -446,31 +450,28 @@
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <h3 style="margin: 0 auto; text-align: center;">
               <img
-                src="./assets/img/thingstodologo.png"
-                alt="Things To DO"
-                style="width: 70%; margin: 27px;"
+                src="./assets/img/BlissLogo.png"
+                alt="Bliss Relaxation"
+                style="width: 70%"
               />
             </h3>
             <div class="portfolio-wrap">
-              <img src="./assets/img/thingstodowalkthrough.gif" class="img-fluid" alt="Things To DO">
+              <img src="./assets/img/BlissWalkthrough.gif" class="img-fluid" alt="Things To DO">
               <div class="portfolio-links">
-                <a href="https://things-to-do1.netlify.app" title="Link"><i class="bx bx-link"></i></a>
-                <a href="https://github.com/DanielHenderson-17/thingstodo" title="More Details"><i class="bi-github"></i></a>
-                <a href="https://youtu.be/HNDHQmWxmgY" title="More Details"><i class="bi-youtube"></i></a>
+                <a href="https://https://bliss-app.netlify.app/" title="Link"><i class="bx bx-link"></i></a>
+                <a href="https://github.com/DanielHenderson-17/Bliss" title="More Details"><i class="bi-github"></i></a>
+                <a href="https://youtu.be/ncE4sDzifB4" title="More Details"><i class="bi-youtube"></i></a>
               </div>
             </div>   
             <p style="color: white; margin-top: 10px; text-align: center; font-size: 12px;">
-              Things to Do is a React app using useEffect and useState to allow user
-              to create a list that maintains through reload. Once user clicks on
-              the task as it is completed it will be strikethrough. User can then
-              remove it by clicking the "X" next to the item!
+              This is a pure javascript app I made for relaxation. You can select between beach, rain, and forest. I wanted to play around with flex a bit and data manipulation through javascript.
             </p>       
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <h3 style="margin: 0 auto; text-align: center;">
               <img 
-                style="width: 80%; margin: 37px;"
+                style="width: 70%"
                 src="./assets/img/prattlelogo.png" 
                 alt="Prattle " />
             </h3>
@@ -486,9 +487,87 @@
               Prattle Chat App is a React app I made using Google and Facebook Auth/IO. It does many api calls using Chat Engine as the display. User can log in with their Google or Facebook credentials via Firebase to join a customized chat program. Here you can make groups and invite people to chat. You can also upload images and see when other users are typing. 
             </p>       
           </div>
+        </div>
+    </div>
 
+    <!-- ======= Slide 2 ======= -->
+    <div class="mySlides">
+      <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <h3 style="margin: 0 auto; text-align: center;">
+            <img
+              style="width: 70%"
+              src="./assets/img/kryptokitlogo.png"
+              alt="KryptoKit"
+            />
+          </h3>
+          <div class="portfolio-wrap">
+            <img src="./assets/img/kryptoki walkthrough.gif" class="img-fluid" alt="KryptoKit">
+            <div class="portfolio-links">
+              <a href="https://github.com/DanielHenderson-17/kryptokit" title="More Details"><i class="bi-github"></i></a>
+              <a href="https://youtu.be/oP5AenDdqw8" title="More Details"><i class="bi-youtube"></i></a>
+            </div>
+          </div>   
+          <p style="color: white; margin-top: 10px; text-align: center; font-size: 12px;">
+            Kryptokit is a React app I made with a team. The user must log in through authenicating and passing validation; they can then see coingecko api listed cryptocurrencies live. From there they can buy, sell or trade currencies in this mock app. It displays all data realtime via Coingecko API.
+          </p>       
         </div>
 
+        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <h3 style="margin: 0 auto; text-align: center;">
+            <img
+              src="./assets/img/thingstodologo.png"
+              alt="Things To DO"
+              style="width: 70%"
+            />
+          </h3>
+          <div class="portfolio-wrap">
+            <img src="./assets/img/thingstodowalkthrough.gif" class="img-fluid" alt="Things To DO">
+            <div class="portfolio-links">
+              <a href="https://things-to-do1.netlify.app" title="Link"><i class="bx bx-link"></i></a>
+              <a href="https://github.com/DanielHenderson-17/thingstodo" title="More Details"><i class="bi-github"></i></a>
+              <a href="https://youtu.be/HNDHQmWxmgY" title="More Details"><i class="bi-youtube"></i></a>
+            </div>
+          </div>   
+          <p style="color: white; margin-top: 10px; text-align: center; font-size: 12px;">
+            Things to Do is a React app using useEffect and useState to allow user
+            to create a list that maintains through reload. Once user clicks on
+            the task as it is completed it will be strikethrough. User can then
+            remove it by clicking the "X" next to the item!
+          </p>       
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <h3 style="margin: 0 auto; text-align: center;">
+            <img
+              style="width: 70%"
+              src="./assets/img/snakelogo.png"
+              alt="Snake"
+            />
+          </h3>
+          <div class="portfolio-wrap">
+            <img src="./assets/img/snakewalkthrough.gif" class="img-fluid" alt="ApiFLIX">
+            <div class="portfolio-links">
+              <a href="https://github.com/DanielHenderson-17/snake" title="More Details"><i class="bi-github"></i></a>
+              <a href="https://youtu.be/jyyWYQiBQLI" title="More Details"><i class="bi-youtube"></i></a>
+            </div>
+          </div>   
+          <p style="color: white; margin-top: 10px; text-align: center; font-size: 12px;">
+            Snake is a simple game I made of the classic game "Snake" using PyGame. I just wanted to mess around with pygame.
+          </p>       
+        </div>
+      </div>
+  </div>
+       <!-- Next and previous buttons -->
+       <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+       <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        
+      </div>
       </div>
     </section><!-- End Portfolio Section -->
 
@@ -613,6 +692,7 @@
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/typed.js/typed.min.js"></script>
   <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/js/script.js"></script>
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
