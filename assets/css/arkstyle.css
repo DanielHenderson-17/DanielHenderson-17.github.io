@@ -1504,17 +1504,18 @@ h3.quote::before {
     background-color: #171816;
     padding: 5px;
     margin: 0px 20px 0px 20px;
-    width: 17%;
+    width: 26%;
     height: 23%;
     border: 1px solid #514e4a;
     border-radius: 7px;
 }
 .bannerblock {
+    display: block;
     align-items: center;
     justify-content: center;
     margin: 0 auto;
-    padding: 0px;
-    width: 95%;
+    padding: 5px;
+    width: 100%;
 }
 .banner {
     padding: 0px;
@@ -1534,14 +1535,19 @@ h3.quote::before {
 .serverstatusblock a:link {
     text-decoration: none;
   }
-.buttonandstatus {
+/* .buttonandstatus {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    width: 90%;
+} */
+.voteandjoin {
+    display: flex;
+    width: 98%;
+    justify-content: space-evenly;
 }
 .joinbtn {
-    display: inline-block;
+    display: inline;
     background-image: url(https://c4.wallpaperflare.com/wallpaper/87/470/339/abstract-grunge-texture-old-wallpaper-preview.jpg);
     background-size: contain;
     background-color: rgb(5, 143, 5);
@@ -1550,7 +1556,7 @@ h3.quote::before {
     margin-bottom: 0px;
     border-radius: 4px;
     font-size: 1vw;
-    width: 20%;
+    width: 40%;
 }
 
 
