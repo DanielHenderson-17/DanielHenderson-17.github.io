@@ -20,7 +20,11 @@ h2:after
     border-radius: 3px;
     width: 10%;
 }
-
+#home {
+    height: 100vh;
+    background-image: url(../img/dhbackground.svg);
+    background-size: cover;
+}
 nav {
     background-color: #35363A;
 }
