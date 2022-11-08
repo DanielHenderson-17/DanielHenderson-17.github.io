@@ -20,16 +20,7 @@ h2:after
     border-radius: 3px;
     width: 10%;
 }
-/* .line:after {
-    content:' ';
-    display:block;
-    border:1px solid #35363a;
-    border-radius: 3px;
-    width: 75%;
-    margin: 0 auto;
-    margin-bottom: 20px;
-    margin-top: 20px;
-} */
+
 nav {
     background-color: #35363A;
 }
