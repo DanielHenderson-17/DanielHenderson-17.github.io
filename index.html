@@ -1,855 +1,952 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <title>Daniel Henderson Portfolio
-    </title>
-</head>
-
-<body>
-    <div class="row">
-        <!-- Desktop -->
-        <!-- Sidebar -->
-        <nav id="navbar" class="col-sm-1 col-md-1 col-lg-2 col-xl-2 d-sm-block d-none h-100 fixed-top justify-content-center"
-            style="background-color: #202124; box-shadow: 4px 4px 4px 3px rgba(0, 0, 0, 0.2);">
-            <!-- Portrait -->
-            <div class="text-center mt-5 mb-3">
-                <img class="w-50 rounded-circle mx-auto align-content-center d-sm-none d-md-none d-lg-block"
-                    src="./assets/img/Portrait2.png" alt="Daniel Henderson Photo" data-aos="fade-in"
-                    style="border: 3px solid #FE842C;">
-                <img src="./assets/img/dhlogo.png" class="text-center w-75 mx-auto align-content-center d-lg-none mb-5"
-                    alt="DH">
-            </div>
-            <!-- Header -->
-            <header class="w-100 d-sm-none d-md-none d-lg-block" data-aos="fade-in">
-                <div class="d-flex align-items-center justify-content-center" style="margin: 0 auto;">
-                    <div class="align-items-center text-center">
-                        <h1 class=" fs-3 text-white mb-0">Daniel Henderson</h1>
-                        <div class="fs-4 d-lg-none d-xl-flex align-items-center text-center">
-                            <span>Software Developer</span>
-                            <span style="color: #FE842C; margin: 0 5px;"> | </span>
-                            <span>Designer</span>
-                            <span style="color: #FE842C; margin: 0 5px;"> | </span><span>Freelancer</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="contact d-flex justify-content-center fs-4 mt-2 mb-4">
-                    <a href="https://www.facebook.com/djhindu17" class="
-                        mx-lg-2
-                        m-3
-                        mt-0
-                        text-center
-                        text-white p-0">
-                        <i class="bi bi-facebook"></i>
-                    </a>
-                    <a href="mailto:djhindu17@gmail.com" class="
-                        mx-lg-2
-                        m-3
-                        mt-0
-                        text-center
-                        text-white p-0">
-                        <i class="bi bi-envelope"></i>
-                    </a>
-                    <a href="https://www.linkedin.com/in/danielhenderson17/" class="
-                        mx-lg-2
-                        m-3
-                        mt-0
-                        text-center
-                        text-white p-0">
-                        <i class="bi bi-linkedin"></i>
-                    </a>
-                    <a href="https://github.com/DanielHenderson-17" class="
-                        mx-lg-2
-                        m-3
-                        mt-0
-                        text-center
-                        text-white p-0">
-                        <i class="bi bi-github"></i>
-                    </a>
-                </div>
-            </header>
-            <ul class="fs-3 text-left p-sm-0 p-md-0 p-lg-4">
-                <li class="mb-3">
-                    <a href="#home"
-                        class="nav-link scrollto text-sm-center text-md-center text-lg-start p-0 side-md-color">
-                        <i class="bx bx-home align-middle me-sm-0 me-md-0 me-lg-2">
-                        </i>
-                        <span class="align-middle d-sm-none d-md-none d-lg-inline">Home</span>
-                    </a>
-                </li class="mb-3">
-                <li class="mb-3">
-                    <a href="#about" class="nav-link scrollto text-sm-center text-md-center text-lg-start
-                     p-0 side-md-color">
-                        <i class="bx bx-user align-middle me-sm-0 me-md-0 me-lg-2">
-                        </i>
-                        <span class="align-middle d-sm-none d-md-none d-lg-inline">About</span>
-                    </a>
-                </li>
-                <li class="mb-3">
-                    <a href="#skills" class="nav-link scrollto text-sm-center text-md-center text-lg-start 
-                    p-0 side-md-color">
-                        <i class="bx bx-check align-middle me-sm-0 me-md-0 me-lg-2">
-                        </i>
-                        <span class="align-middle d-sm-none d-md-none d-lg-inline">Skills</span>
-                    </a>
-                </li>
-                <li class="mb-3">
-                    <a href="#portfolio" class="nav-link scrollto text-sm-center text-md-center text-lg-start 
-                    p-0 side-md-color">
-                        <i class="bx bx-book-content align-middle me-sm-0 me-md-0 me-lg-2">
-                        </i>
-                        <span class="align-middle d-sm-none d-md-none d-lg-inline">Portfolio</span>
-                    </a>
-                </li>
-                <li class="mb-3">
-                    <a href="#resume" class="nav-link scrollto text-sm-center text-md-center text-lg-start 
-                    p-0 side-md-color">
-                        <i class="bx bx-file-blank align-middle me-sm-0 me-md-0 me-lg-2"></i>
-                        <span class="align-middle d-sm-none d-md-none d-lg-inline">Resume</span>
-                    </a>
-                </li>
-                <li class="mb-3">
-                    <a href="#servers" class="nav-link scrollto text-sm-center text-md-center text-lg-start
-                    p-0 side-md-color">
-                        <i class="bx bx-game align-middle me-sm-0 me-md-0 me-lg-2"></i>
-                        <span class="align-middle d-sm-none d-md-none d-lg-inline">Servers</span>
-                    </a>
-                </li>
-            </ul>
-        </nav>
-        <!-- Mobile -->
-        <div class="col-sm-11 col-md-11 col-lg-10 col-xl-10 mx-auto me-0 p-0">
-            <!-- Navigation -->
-            <nav class="fixed-bottom d-block d-sm-none pb-2" style="margin: auto;">
-                <ul class="nav justify-content-around">
-                    <li>
-                        <a href="#home" class="nav-link scrollto text-center
-                        text-white p-0">
-                            <i class="bi bi-house d-block fs-1">
-                            </i>
-                            <span>Home</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#about" class="nav-link scrollto text-center
-                        text-white p-0">
-                            <i class="bi bi-person d-block fs-1">
-                            </i>
-                            <span>About</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#skills" class="nav-link scrollto
-                        text-center
-                        text-white p-0">
-                            <i class="bi bi-journal-check d-block fs-1">
-                            </i>
-                            <span>Skills</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#portfolio" class="nav-link scrollto
-                        text-white p-0">
-                            <i class="bi bi-layout-text-sidebar-reverse d-block
-                            fs-1">
-                            </i>
-                            <span>Portfolio</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#resume" class="nav-link scrollto
-                        text-center
-                        text-white p-0">
-                            <i class="bi bi-file-earmark d-block fs-1"></i>
-                            <span>Resume</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#servers" class="nav-link scrollto
-                        text-center
-                        text-white p-0">
-                            <i class="bi bi-controller d-block fs-1"></i>
-                            <span>Servers</span>
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-            <!-- Portrait & Header -->
-            <!-- Portrait -->
-            <div class="d-block d-sm-none">
-                <img class="w-100" src="./assets/img/Portrait.png" alt="Daniel Henderson Photo" data-aos="fade-in">
-            </div>
-            <!-- Header -->
-            <header id="#home" class="w-100 d-block d-sm-none" data-aos="fade-in">
-                <img src="./assets/img/dhlogo.png" class="p-3 mx-auto d-block" alt="DH">
-                <div class="d-flex align-items-center justify-content-center" style="margin: 0 auto;">
-                    <div class="align-items-center text-center">
-                        <h1 class=" fs-1 text-white mb-0">Daniel Henderson</h1>
-                        <div class="fs-4 d-flex align-items-center">
-                            <span>Software Developer</span>
-                            <span style="color: #FE842C; margin: 0 5px;"> | </span>
-                            <span>Designer</span>
-                            <span style="color: #FE842C; margin: 0 5px;"> | </span><span>Freelancer</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="contact d-flex justify-content-center fs-1 mt-2">
-                    <a href="https://www.facebook.com/djhindu17" class="
-                        m-4
-                        mt-0
-                        text-center
-                        text-white p-0">
-                        <i class="bi bi-facebook"></i>
-                    </a>
-                    <a href="mailto:djhindu17@gmail.com" class="
-                        m-4
-                        mt-0
-                        text-center
-                        text-white p-0">
-                        <i class="bi bi-envelope"></i>
-                    </a>
-                    <a href="https://www.linkedin.com/in/danielhenderson17/" class="
-                        m-4
-                        mt-0
-                        text-center
-                        text-white p-0">
-                        <i class="bi bi-linkedin"></i>
-                    </a>
-                    <a href="https://github.com/DanielHenderson-17" class="
-                        m-4
-                        mt-0
-                        text-center
-                        text-white p-0">
-                        <i class="bi bi-github"></i>
-                    </a>
-                </div>
-            </header>
-            <!-- Home -->
-            <section id="home" class="d-none d-sm-block line justify-content-center
-            border-0 col-lg-11 mx-lg-auto position-relative" data-aos="fade-up">
-            <div class="col-11 mx-auto d-inline position-absolute align-items-center text-center align-middle" style="top: 40%;">
-                <h1 class="text-white mb-0" style="font-size: 5em;">Daniel Henderson</h1>
-                <div class="d-flex align-items-center text-center align-middle mx-auto justify-content-center" style="font-size: 3em;">
-                    <span>Software Developer</span>
-                    <span style="color: #FE842C; margin: 0 5px;"> | </span>
-                    <span>Designer</span>
-                    <span style="color: #FE842C; margin: 0 5px;"> | </span><span>Freelancer</span>
-                </div>
-            </div>
-            </section>
-            <!-- About -->
-            <section id="about" class="line justify-content-center
-            border-0 col-lg-11 mx-lg-auto" data-aos="fade-up">
-                <div class="col-11 text-white text-left p-2 pb-1 mx-auto mb-2 mb-sm-2 rounded glass-background">
-                    <h2 class="fs-1 mt-0 mb-2 mx-auto">About</h2>
-                    <p class="fs-6 mb-3 mx-auto">I am an full stack software developer looking to bring my
-                        project management experience to the field of software engineering. I am eager to
-                        leverage excellent communication, strong relationship
-                        management
-                        skills, proven problem solving strategies, and technical
-                        expertise to a software team.
-                    <p>
-                </div>
-                <div class="d-xl-flex col-sm-11 mx-sm-auto">
-                    <img class="w-100 p-0 mx-auto mt-2 mb-2 me-sm-2" src="./assets/img/danslide.gif" alt="Daniel
-                        Henderson
-                        Photo">
-                    <div class="d-none d-sm-block text-white text-left p-2 pb-1 mx-auto mb-4 rounded glass-background">
-                        <h2 class="fs-1 mt-0 mb-2 mx-auto">Software Development</h2>
-                        <p class="fs-6 mb-5 mx-auto">I initially started doing the free online learnings and got
-                            hooked
-                            immediately on building web pages and applications. My first taught projects were in Python
-                            and then I
-                            eventually went on to learn React and some C#. Since then I have been writing code in my
-                            spare time and
-                            brainstorming ideas for apps. I currently host gaming servers via discord and have written a
-                            few apps to
-                            handle the traffic as well.
-                        <p>
-                        <h2 class="fs-1 mt-5  mb-2 d-sm-none d-md-block mx-auto">Project Management</h2>
-                        <p class="fs-6 mb-3 d-sm-none d-md-block mx-auto">For thirteen years I worked in
-                            telecommunications as a project manager. The few companies I worked for specialized in
-                            everything from building towers to updating them with the newest technologies that we use
-                            today such as 5G. During my tenure at these companies I became a certified BTS Engineer for
-                            T-Mobile at the highest level. These certifications are required to configure and setup
-                            radios for T-Mobile Network. BTS Engineers often write scripts for the radios to communicat
-                            with your cellular phone. They then need to be tested for each antenna from all degrees
-                            around a tower of transmission.
-                        <p>
-                    </div>
-                </div>
-            </section>
-            <!-- Skills -->
-            <section id="skills" class="line justify-content-center
-                            border-0 col-lg-11 mx-lg-auto" data-aos="fade-up">
-                <div class="col-11 text-white text-left p-2 pb-1 mx-auto mb-2 rounded glass-background">
-                    <h2 class="fs-1 mt-2 mb-2 w-100 mx-auto">Skills</h2>
-                    <p class="fs-6 mb-3 mx-auto w-100">RESTful API, CRUD, API Design
-                    <p>
-                    <ul class="row justify-content-around text-white fs-1 text-center p-0 mx-auto"
-                        style="margin: auto;">
-                        <li class="col text-center"><span class="d-block">Python</span><img
-                                src="./assets/img/icons/python.png"
-                                style="border-radius:50%; box-shadow: 1px 1px 1px 1px rgb(41, 41, 41);" alt=""></li>
-                        <li class="col text-center"><span class="d-block">React</span><img
-                                src="./assets/img/icons/react.png"
-                                style="border-radius:50%; box-shadow: 1px 1px 1px 1px rgb(41, 41, 41);" alt=""></li>
-                        <li class="col text-center"><span class="d-block">Javascript</span><img
-                                src="./assets/img/icons/javascript.png"
-                                style="border-radius:50%; box-shadow: 1px 1px 1px 1px rgb(41, 41, 41);" alt=""></li>
-                    </ul>
-                    <h2 class="fs-1 mt-2 mb-2 w-100 mx-auto mt-4">Other Skills</h2>
-                    <ul class="row justify-content-around text-white fs-4 text-center p-2" style="margin: auto;">
-                        <li class="col text-center"><img class="d-block d-sm-inline p-sm-1 mx-auto"
-                                src="./assets/img/icons/nodejs.png" alt=""><span class="align-middle">Node.js</span>
-                        </li>
-                        <li class="col text-center"><img class="d-block d-sm-inline p-sm-1 mx-auto"
-                                src="./assets/img/icons/java.png" alt=""><span class="align-middle">Java</span></li>
-                        <li class="col text-center"><img class="d-block d-sm-inline p-sm-1 mx-auto"
-                                src="./assets/img/icons/c.png" alt=""><span class="align-middle">C#</span></li>
-                        <li class="col text-center"><img class="d-block d-sm-inline p-sm-1 mx-auto"
-                                src="./assets/img/icons/mysql.png" alt=""><span class="align-middle">MySQL</span></li>
-                    </ul>
-                    <ul class="row justify-content-around text-white fs-4 text-center p-2" style="margin: auto;">
-                        <li class="col text-center"><img class="d-block d-sm-inline p-sm-1 mx-auto"
-                                src="./assets/img/icons/bootstrap.png" alt=""><span
-                                class="align-middle">Bootstrap</span></li>
-                        <li class="col text-center"><img class="d-block d-sm-inline p-sm-1 mx-auto"
-                                src="./assets/img/icons/aws.png" alt=""><span class="align-middle">AWS</span></li>
-                        <li class="col text-center"><img class="d-block d-sm-inline p-sm-1 mx-auto"
-                                src="./assets/img/icons/django.png" alt=""><span class="align-middle">Django</span></li>
-                        <li class="col text-center"><img class="d-block d-sm-inline p-sm-1 mx-auto"
-                                src="./assets/img/icons/webrtc.png" alt=""><span class="align-middle">WebRTC</span></li>
-                    </ul>
-                    <ul class="row justify-content-around text-white fs-4 text-center p-2" style="margin: auto;">
-                        <li class="col text-center"><img class="d-block d-sm-inline p-sm-1 mx-auto"
-                                src="./assets/img/icons/jquery.png" alt=""><span class="align-middle">JQuery</span></li>
-                        <li class="col text-center"><img class="d-block d-sm-inline p-sm-1 mx-auto"
-                                src="./assets/img/icons/mongodb.png" alt=""><span class="align-middle">MongoDB</span>
-                        </li>
-                        <li class="col text-center"><img class="d-block d-sm-inline p-sm-1 mx-auto"
-                                src="./assets/img/icons/netlify.png" alt=""><span class="align-middle">Netlify</span>
-                        </li>
-                        <li class="col text-center"><img class="d-block d-sm-inline p-sm-1 mx-auto"
-                                src="./assets/img/icons/socketio.png" alt=""><span class="align-middle">Socket.io</span>
-                        </li>
-                    </ul>
-                    <ul class="row justify-content-around text-white fs-4 text-center p-2 mb-2" style="margin: auto;">
-                        <li class="col text-center"><img class="d-block d-sm-inline p-sm-1 mx-auto"
-                                src="./assets/img/icons/firebase.png" alt=""><span class="align-middle">Firebase</span>
-                        </li>
-                        <li class="col text-center"><img class="d-block d-sm-inline p-sm-1 mx-auto"
-                                src="./assets/img/icons/materialui.png" alt=""><span
-                                class="align-middle">Material</span></li>
-                        <li class="col text-center"><img class="d-block d-sm-inline p-sm-1 mx-auto"
-                                src="./assets/img/icons/materialize.png" alt=""><span
-                                class="align-middle">Materialize</span></li>
-                        <li class="col text-center"><img class="d-block d-sm-inline p-sm-1 mx-auto"
-                                src="./assets/img/icons/springboot.png" alt=""><span class="align-middle">Spring</span>
-                        </li>
-                    </ul>
-                </div>
-                <img class="w-100 p-0 d-md-none" src="./assets/img/celebrate.png" alt="Daniel
-                        Henderson
-                        Photo">
-            </section>
-
-            <!-- Portfolio -->
-            <section id="portfolio" class="line justify-content-center
-            border-0 col-lg-11 mx-lg-auto mt-md-5" data-aos="fade-up" style="margin: auto;">
-                <div class="col-11 text-white text-left p-2 pb-1 mx-auto mb-3 rounded glass-background">
-
-                    <h2 class="fs-1 mt-2 mb-2 w-100 mx-auto">Portfolio</h2>
-                    <p>During my time in software development here are a few of the projects that I have done on
-                        my own
-                        time. They are organized by technology used to make the app.</p>
-                </div>
-                <div class="apps d-lg-flex">
-                    <!-- JavaScript Apps -->
-                    <div class="col-11 col-md-5 text-white text-left p-2 pb-1 mx-auto mb-3 rounded glass-background">
-                        <div class="col text-center mb-3 p-0">
-                            <span class="rounded fs1 align-middle" style="color: #FE842C">_______</span>
-                            <img class="mx-auto" src="./assets/img/icons/javascript2.png" alt=""
-                                style="margin-left: 0px">
-                            <span class="d-inline fs-4 align-middle mx-auto">JavaScript Apps</span>
-                            <span class="rounded fs1 align-middle" style="color: #FE842C">_______</span>
-                        </div>
-                        <div id="jsCarousel" class="carousel slide w-100 p-0" data-bs-ride="carousel">
-                            <div class="carousel-inner w-100">
-                                <!-- Bliss -->
-                                <div class="carousel-item active text-center" data-bs-interval="5500">
-                                    <img src="./assets/img/projects/blisslogo.png" class="d-block w-50 mx-auto mb-2"
-                                        alt="Bliss Relaxation">
-                                    <img src="./assets/img/projects/blissthumb.gif"
-                                        class="d-block w-75 mx-auto rounded-top" alt="Bliss Relaxation">
-                                    <div class="projMenu btn-group w-75 rounded-0 rounded-bottom m-0">
-                                        <a href="https://bliss-app.netlify.app/" class="btn btn-primary w-25"><i
-                                                class="bi bi-link-45deg"></i></a>
-                                        <a href="https://youtu.be/ncE4sDzifB4" class="btn btn-primary w-25"><i
-                                                class="bi bi-youtube"></i></a>
-                                        <a href="https://github.com/DanielHenderson-17/Bliss"
-                                            class="btn btn-primary w-25"><i class="bi bi-github"></i></a>
-                                    </div>
-                                    <p class="w-75 mx-auto mt-2">This is a pure javascript app I made for relaxation.
-                                        You can select
-                                        between
-                                        beach, rain, forest, harp, tibet bowl, and lofi hip-hop. I wanted to play around
-                                        with flex a
-                                        bit
-                                        and data manipulation through javascript.</p>
-                                </div>
-                                <!-- Weather -->
-                                <div class="carousel-item text-center" data-bs-interval="5500">
-                                    <img src="./assets/img/projects/weatherlogo.png" class="d-block w-50 mx-auto mb-2"
-                                        alt="Weather">
-                                    <img src="./assets/img/projects/weatherthumb.png"
-                                        class="d-block w-75 mx-auto rounded-top" alt="Weather">
-                                    <div class="projMenu btn-group w-75 rounded-0 rounded-bottom m-0">
-                                        <a href="https://weather-app17.netlify.app/" class="btn btn-primary w-25"><i
-                                                class="bi bi-link-45deg"></i></a>
-                                        <a href="https://github.com/DanielHenderson-17/weatherapp"
-                                            class="btn btn-primary w-25"><i class="bi bi-github"></i></a>
-                                    </div>
-                                    <p class="w-75 mx-auto mt-2">This is a vanilla JavaScript app I made that shows the
-                                        7 day
-                                        forecast.
-                                        It calls from the API to get the data to display. It displays the real time as
-                                        well as the
-                                        geolocation in Latitude and Longitude.
-                                    </p>
-                                </div>
-                            </div>
-                            <button class="carousel-control-prev" type="button" data-bs-target="#jsCarousel"
-                                data-bs-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"
-                                    style="background-image: green;"></span>
-                                <span class="visually-hidden">Previous</span>
-                            </button>
-                            <button class="carousel-control-next" type="button" data-bs-target="#jsCarousel"
-                                data-bs-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Next</span>
-                            </button>
-                        </div>
-                    </div>
-                    <!-- React Apps -->
-                    <div class="col-11 col-md-5 text-white text-left p-2 pb-1 mx-auto mb-3 rounded glass-background">
-                        <div class="col text-center mb-3 p-0">
-                            <span class="rounded fs1 align-middle" style="color: #FE842C">_______</span>
-                            <img class="mx-auto" src="./assets/img/icons/react2.png" alt="">
-                            <span class="d-inline fs-4 align-middle">React Apps</span>
-                            <span class="rounded fs1 align-middle" style="color: #FE842C">_______</span>
-                        </div>
-                        <div id="reactCarousel" class="carousel slide w-100 p-0" data-bs-ride="carousel">
-                            <div class="carousel-inner">
-                                <!-- ApiFlix -->
-                                <div class="carousel-item active text-center" data-bs-interval="5000">
-                                    <img src="./assets/img/projects/apiflixlogo.png" class="d-block w-50 mx-auto mb-2"
-                                        alt="ApiFlix">
-                                    <img src="./assets/img/projects/apiflixthumb.png"
-                                        class="d-block w-75 mx-auto rounded-top" alt="ApiFlix">
-                                    <div class="projMenu btn-group w-75 rounded-0 rounded-bottom m-0">
-                                        <a href="https://apiflix.netlify.app/" class="btn btn-primary w-25"><i
-                                                class="bi bi-link-45deg"></i></a>
-                                        <a href="https://youtu.be/tWo7-1wEwIU" class="btn btn-primary w-25"><i
-                                                class="bi bi-youtube"></i></a>
-                                        <a href="https://github.com/DanielHenderson-17/apiflix"
-                                            class="btn btn-primary w-25"><i class="bi bi-github"></i></a>
-                                    </div>
-                                    <p class="w-75 mx-auto mt-2">APIFLIX is a React app I made using TMDB.org api and
-                                        using Google
-                                        Firebase. It is a clone of Netflix. Each category
-                                        maps through the api to show the results for that search result. All the
-                                        critical data is
-                                        stored on the api and not the server.</p>
-                                </div>
-                                <!-- Expense It -->
-                                <div class="carousel-item text-center" data-bs-interval="5000">
-                                    <img src="./assets/img/projects/expenseitlogo.png" class="d-block w-50 mx-auto mb-2"
-                                        alt="Expense It">
-                                    <img src="./assets/img/projects/expenseitthumb.png"
-                                        class="d-block w-75 mx-auto rounded-top" alt="Expense It">
-                                    <div class="projMenu btn-group w-75 rounded-0 rounded-bottom m-0">
-                                        <a href="https://expense-it1.netlify.app/" class="btn btn-primary w-25"><i
-                                                class="bi bi-link-45deg"></i></a>
-                                        <a href="https://youtu.be/nwkPMUYiOv4" class="btn btn-primary w-25"><i
-                                                class="bi bi-youtube"></i></a>
-                                        <a href="https://github.com/DanielHenderson-17/ExpenseIt"
-                                            class="btn btn-primary w-25"><i class="bi bi-github"></i></a>
-                                    </div>
-                                    <p class="w-75 mx-auto mt-2">Expense It! is a front end React app I made that
-                                        utilizes voice
-                                        recognition, local storage, context api, and custom hooks. It is an expense
-                                        tracker that has
-                                        a very robust UI for desktop and mobile. User can speak or input the fields to
-                                        add an income
-                                        or expense to the page. User can delete transaction with voice or input as well.
-                                    </p>
-                                </div>
-                                <!-- KryptoKit -->
-                                <div class="carousel-item text-center" data-bs-interval="5000">
-                                    <img src="./assets/img/projects/kryptokitlogo.png" class="d-block w-50 mx-auto mb-2"
-                                        alt="KryptoKit">
-                                    <img src="./assets/img/projects/kryptokitthumb.png"
-                                        class="d-block w-75 mx-auto rounded-top" alt="KryptoKit">
-                                    <div class="projMenu btn-group w-75 rounded-0 rounded-bottom m-0">
-                                        <a href="https://youtu.be/oP5AenDdqw8" class="btn btn-primary w-25"><i
-                                                class="bi bi-youtube"></i></a>
-                                        <a href="https://github.com/DanielHenderson-17/kryptokit"
-                                            class="btn btn-primary w-25"><i class="bi bi-github"></i></a>
-                                    </div>
-                                    <p class="w-75 mx-auto mt-2">Kryptokit is a React app I made with a team. The user
-                                        must log in
-                                        through authenicating and passing validation; they can then see coingecko api
-                                        listed
-                                        cryptocurrencies live. From there they can buy, sell or trade currencies in this
-                                        mock app.
-                                        It displays all data realtime via Coingecko API.
-                                    </p>
-                                </div>
-                                <!-- Simply 'N Stock -->
-                                <div class="carousel-item text-center" data-bs-interval="5000">
-                                    <img src="./assets/img/projects/snslogo.png" class="d-block w-50 mx-auto mb-2"
-                                        alt="Simply 'N Stock">
-                                    <img src="./assets/img/projects/snsthumb.png"
-                                        class="d-block w-75 mx-auto rounded-top" alt="Simply 'N Stock">
-                                    <div class="projMenu btn-group w-75 rounded-0 rounded-bottom m-0">
-                                        <a href="https://youtu.be/xORgKsroVvI" class="btn btn-primary w-25"><i
-                                                class="bi bi-youtube"></i></a>
-                                        <a href="https://github.com/DanielHenderson-17/simplynstock"
-                                            class="btn btn-primary w-25"><i class="bi bi-github"></i></a>
-                                    </div>
-                                    <p class="w-75 mx-auto mt-2">SimplyNStock is a React app to manage inventory across
-                                        multiple
-                                        locations. It uses MongoDB and Node.js. Users may add an item to the inventory
-                                        by selecting
-                                        the physical locaiton as well as the warehouse it would be located at.</p>
-                                </div>
-                                <!-- Things to Do -->
-                                <div class="carousel-item text-center" data-bs-interval="5000">
-                                    <img src="./assets/img/projects/thingslogo.png" class="d-block w-50 mx-auto mb-2"
-                                        alt="Things to Do">
-                                    <img src="./assets/img/projects/thingsthumb.gif"
-                                        class="d-block w-75 mx-auto rounded-top" alt="Things to DO">
-                                    <div class="projMenu btn-group w-75 rounded-0 rounded-bottom m-0">
-                                        <a href="https://things-to-do1.netlify.app/" class="btn btn-primary w-25"><i
-                                                class="bi bi-link-45deg"></i></a>
-                                        <a href="https://youtu.be/HNDHQmWxmgY" class="btn btn-primary w-25"><i
-                                                class="bi bi-youtube"></i></a>
-                                        <a href="https://github.com/DanielHenderson-17/thingstodo"
-                                            class="btn btn-primary w-25"><i class="bi bi-github"></i></a>
-                                    </div>
-                                    <p class="w-75 mx-auto mt-2">Things to Do is a React app using useEffect and
-                                        useState to allow
-                                        user to create a list that maintains through reload. Once user clicks on the
-                                        task as it is
-                                        completed it will be strikethrough. User can then remove it by clicking the "X"
-                                        next to the
-                                        item!
-                                    </p>
-                                </div>
-                                <!-- Prattle -->
-                                <div class="carousel-item text-center" data-bs-interval="5000">
-                                    <img src="./assets/img/projects/prattlelogo.png" class="d-block w-50 mx-auto mb-2"
-                                        alt="Prattle">
-                                    <img src="./assets/img/projects/prattlethumb.png"
-                                        class="d-block w-75 mx-auto rounded-top" alt="Prattle">
-                                    <div class="projMenu btn-group w-75 rounded-0 rounded-bottom m-0">
-                                        <a href="https://prattle.netlify.app/" class="btn btn-primary w-25"><i
-                                                class="bi bi-link-45deg"></i></a>
-                                        <a href="https://youtu.be/5rXvv9fz4gQ" class="btn btn-primary w-25"><i
-                                                class="bi bi-youtube"></i></a>
-                                        <a href="https://github.com/DanielHenderson-17/prattlechatapp"
-                                            class="btn btn-primary w-25"><i class="bi bi-github"></i></a>
-                                    </div>
-                                    <p class="w-75 mx-auto mt-2">Prattle Chat App is a React app I made using Google and
-                                        Facebook
-                                        Auth/IO. It does many api calls using Chat Engine as the display. User can log
-                                        in with their
-                                        Google or Facebook credentials via Firebase to join a customized chat program.
-                                    </p>
-                                </div>
-                            </div>
-                            <button class="carousel-control-prev" type="button" data-bs-target="#reactCarousel"
-                                data-bs-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Previous</span>
-                            </button>
-                            <button class="carousel-control-next" type="button" data-bs-target="#reactCarousel"
-                                data-bs-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Next</span>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-                <!-- Other Apps -->
-                <div class="apps d-lg-flex">
-                    <div class="col-11 col-md-5 text-white text-left p-2 pb-1 mx-auto mb-3 rounded glass-background">
-                        <div class="col text-center mb-3 p-0">
-                            <span class="rounded fs1 align-middle" style="color: #FE842C">_______</span>
-                            <img class="mx-auto" src="./assets/img/icons/c2.png" alt="">
-                            <span class="d-inline fs-2 align-middle">C# Apps</span>
-                            <span class="rounded fs1 align-middle" style="color: #FE842C">_______</span>
-                        </div>
-                        <div id="cSharpCarousel" class="carousel slide w-100 p-0" data-bs-ride="carousel">
-                            <div class="carousel-inner">
-                                <!-- Aten Destroyer -->
-                                <div class="carousel-item active text-center" data-bs-interval="5500">
-                                    <img src="./assets/img/projects/atenlogo1.png" class="d-block w-50 mx-auto mb-2"
-                                        alt="Aten Destroyer">
-                                    <img src="./assets/img/projects/atenthumb.png"
-                                        class="d-block w-75 mx-auto rounded-top" alt="Aten Destroyer">
-                                    <div class="projMenu btn-group w-75 rounded-0 rounded-bottom m-0">
-                                        <a href="https://github.com/DanielHenderson-17/Aten-Destroyer"
-                                            class="btn btn-primary w-25"><i class="bi bi-github"></i></a>
-                                    </div>
-                                    <p class="w-75 mx-auto mt-2">Aten Destroyer is a C# application I made in Visual
-                                        Studio. It is a
-                                        take on some of the old games of a spaceship flying across the screen destroying
-                                        other
-                                        spaceships.</p>
-                                </div>
-                            </div>
-                            <button class="carousel-control-prev" type="button" data-bs-target="#cSharpCarousel"
-                                data-bs-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Previous</span>
-                            </button>
-                            <button class="carousel-control-next" type="button" data-bs-target="#cSharpCarousel"
-                                data-bs-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Next</span>
-                            </button>
-                        </div>
-                    </div>
-                    <!-- Python Apps -->
-                    <div class="col-11 col-md-5 text-white text-left p-2 pb-1 mx-auto mb-2 rounded glass-background">
-                        <div class="col text-center mb-3 p-0">
-                            <span class="rounded fs1 align-middle" style="color: #FE842C">_______</span>
-                            <img class="mx-auto" src="./assets/img/icons/python2.png" alt="">
-                            <span class="d-inline fs-2 align-middle">Python Apps</span>
-                            <span class="rounded fs1 align-middle" style="color: #FE842C">_______</span>
-                        </div>
-                        <div id="pythonCarousel" class="carousel slide w-100 p-0" data-bs-ride="carousel">
-                            <div class="carousel-inner">
-                                <!-- Snake -->
-                                <div class="carousel-item active text-center" data-bs-interval="5000">
-                                    <img src="./assets/img/projects/snakelogo.png" class="d-block w-50 mx-auto mb-2"
-                                        alt="Snake">
-                                    <img src="./assets/img/projects/snakethumb.png"
-                                        class="d-block w-75 mx-auto rounded-top" alt="Snake">
-                                    <div class="projMenu btn-group w-75 rounded-0 rounded-bottom m-0">
-                                        <a href="https://youtu.be/jyyWYQiBQLI" class="btn btn-primary w-25"><i
-                                                class="bi bi-youtube"></i></a>
-                                        <a href="https://github.com/DanielHenderson-17/snake"
-                                            class="btn btn-primary w-25"><i class="bi bi-github"></i></a>
-                                    </div>
-                                    <p class="w-75 mx-auto mt-2">Snake is a simple game I made of the classic game
-                                        "Snake" using
-                                        PyGame. I just wanted to mess around with pygame.</p>
-                                </div>
-                            </div>
-                            <button class="carousel-control-prev" type="button" data-bs-target="#pythonCarousel"
-                                data-bs-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Previous</span>
-                            </button>
-                            <button class="carousel-control-next" type="button" data-bs-target="#pythonCarousel"
-                                data-bs-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Next</span>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- Resume -->
-            <section id="resume" class="line justify-content-center border-0 col-lg-11 mx-lg-auto mb-5" data-aos="fade-up">
-                <div class="col-11 text-white text-left p-2 pb-1 mx-auto mb-2 mb-sm-2 rounded glass-background">
-                    <h2 class="fs-1 mt-2 mb-5 w-100 mx-auto">Resume</h2>
-                    <div class="w-100 p-0 d-flex justify-content-between">
-                        <h1>Summary</h1>
-                        <a href="https://drive.google.com/file/d/1eHKjGM0zswJBbSujt_TzZKw-Z0AfDh5k/view?usp=sharing"
-                            class="fs-1" style="color: black;">
-                            <i class="bi bi-cloud-arrow-down p-2" style="color:#FE842C">
-                            </i>
-                        </a>
-                    </div>
-                    <div class="resume-item pb-0">
-                        <h4>Daniel Henderson</h4>
-                        <p><em>I am an full stack software developer looking to bring my wireless project management
-                                experience
-                                to the field of software engineering. I am eager to leverage
-                                <b>excellent communication</b>, strong relationship
-                                <b>management skills</b>, proven <b>problem solving</b> strategies,
-                                and technical expertise to a software team.</em></p>
-                        <ul>
-                            <li>Mt Juliet, TN</li>
-                            <li>(918) 671-3407</li>
-                            <li>djhindu17@gmail.com</li>
-                        </ul>
-                    </div>
-                    <h1 class="mt-5">Education</h1>
-                    <div class="resume-item pb-0">
-                        <div>
-                            <img src="./assets/img/icons/codingdojo.png" alt="">
-                            <h4 class="d-inline fs-6">Coding Dojo, Seatle, WA</h4>
-                        </div>
-                        <p class="mb-2" style="font-style: italic;">Coding Dojo Blackbelt</p>
-                        <p class="p-1 fs-6 d-inline" style="background-color: #35363A;">2020-2021</p>
-                        <ul class="mt-2">
-                            <li>16 weeks intensive full stack coding bootcamp, 20-40 hours per week, pair
-                                programming,
-                                algorithms</li>
-                            <li>Earned "Black Belt"; Coding Dojo's highest level of knowledge achievement</li>
-                        </ul>
-                        <div>
-                            <img src="./assets/img/icons/ou.png" alt="">
-                            <h4 class="d-inline fs-6">Oklahoma University, Norman, OK</h4>
-                        </div>
-                        <p class="mb-2" style="font-style: italic;">Bachelors in Management Information Systems</p>
-                        <p class="p-1 fs-6 d-inline" style="background-color: #35363A;">2005-2009</p>
-                        <ul class="mt-2">
-                            <li>4 year advanced degree in Information Technology</li>
-                        </ul>
-                    </div>
-                    <h1 class="mt-5">Professional Experience</h1>
-                    <div class="resume-item pb-0">
-                        <div>
-                            <img src="./assets/img/icons/jag.png" alt="">
-                            <h4 class="d-inline fs-6">JAG Resources, Eagleville, TN</h4>
-                        </div>
-                        <p class="mb-2" style="font-style: italic;">Lighting Division Project Manager</p>
-                        <p class="p-1 fs-6 d-inline" style="background-color: #35363A;">2017-2020</p>
-                        <ul class="mt-2">
-                            <li>Led the Lightning Division across 8 locations and 65 employees including
-                                inventory/procurement
-                                management, managing accounting & payroll, facilitated hiring and training, and
-                                creation of
-                                organizational process assets and documentation</li>
-                            <li>Led the planning and execution of Texas A&M Fiber install which resulted in earning
-                                35% margin
-                                on a $300,000 project (spanning only 20 days).
-                            </li>
-                            <li>
-                                Improved process inefficiencies and introduced new growth strategies that earned the
-                                company $4M
-                                revenue for year 2018 on a $2.5M budget).
-                            </li>
-                        </ul>
-
-                        <div>
-                            <img src="./assets/img/icons/platinum.png" alt="">
-                            <h4 class="d-inline fs-6">Platinum Communications, Austin, TX</h4>
-                        </div>
-                        <p class="mb-2" style="font-style: italic;">Quality Assurance and Project Manager</p>
-                        <p class="p-1 fs-6 d-inline" style="background-color: #35363A;">2008-2017</p>
-                        <ul class="mt-2">
-                            <li>Managed daily operations of 10 crews including but not limited to standard ATT & TMO
-                                market
-                                upgrades.
-                            </li>
-                            <li>Performed PM and CM roles for 554 sites across Texas and Oklahoma (IE. scheduling,
-                                reporting,
-                                payroll, management of various projects simultaneously, supplying both the customer
-                                and
-                                employees with necessary tools to complete projects).
-                            </li>
-                            <li>Performed all ATT and TMO closeout (COP) procedures on over 500+ sites prior to
-                                company
-                                invoicing and project completion (Using Siterra, Dropbox, IPM, and NOLS to complete
-                                said
-                                projects).
-                            </li>
-                            <li>Worked closely with Goodman, Ericsson, ATT, TMO, Parsons, and Nokia Siemens
-                                personnel to
-                                complete projects on time exceeding industry demand.
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
-            <!-- Zombie Lynx Gaming Servers -->
-            <section id="servers" class="line justify-content-center border-0 col-lg-11 mx-lg-auto mb-5" data-aos="fade-up">
-                <div class="col-11 text-white text-left p-2 pb-1 mx-auto mb-2 mb-sm-2 rounded glass-background">
-                    <h2 class="fs-1 mt-2 mb-2 w-100 mx-auto">Servers</h2>
-                    <p class="fs-6 mb-5 mx-auto w-100">I host a gaming network on Discord and have my own local dedicated server that I host a myriad of servers on. I have many different games and apps running on this dedicated server PC as well as have many bots I've either written or collaborated with to make this community. A few of the games I host on my dedicated server PC can be found below. This started out as a hobby and grew to a community with hundereds of people coming together.
-                    <p>
-                        <div class="w-100 p-4 position-relative">
-                            <a href="https://discord.gg/FrWtShumut"
-                                class="fs-1 position-absolute top-0 end-0" style="color: black;">
-                                <i class="bi bi-discord p-2" style="color:#FE842C">
-                                </i>
-                            </a>
-                        </div>
-                <div class="mx-auto text-center mt-3 mb-5 align-middle justify-content-center ">
-                    <img class="d-none d-md-inline align-bottom" src="./assets/img/icons/zlglogo.png" alt="">
-                    <img class="align-bottom" src="./assets/img/icons/zlglogo2.png" alt="">
-                </div>
-                <div class="d-xl-flex mt-5 mx-sm-auto text-center">
-                    <div class="server m-2">
-                        <img src="./assets/img/icons/ark.png" alt="">
-                        <h3>Ark Survival Evolved</h3>
-                        <p style="height: 175px">I host 12 Ark servers with multiple bots, plugins, and mods. I have had a very steady community and following for this game. All of these servers are linked together as well. I cache the files for easier loading and all transfers to and from servers have a proxy server for holding character information.</p>
-                        <a href="http://zlg.gg/ark" class="btn btn-primary mb-5" style="background-color: #FE842C; border:1px solid white">More info...</a>
-                    </div>
-                    <div class="server m-2">
-                        <img src="./assets/img/icons/minecraft.png" alt="">
-                        <h3>Minecraft</h3>
-                        <p style="height: 175px">I originally started this cluster of servers to learn to play around with different mods and plugins. I never played Minecraft so it took a lot of learning just for the in game setup. This server cluster uses a proxy server for players to connect due to Minecraft restrictions.</p>
-                        <a href="http://zlg.gg/minecraft" class="btn btn-primary mb-5" style="background-color: #FE842C; border:1px solid white">More info...</a>
-                    </div>
-                    <div class="server m-2">
-                        <img src="./assets/img/icons/eco.png" alt="">
-                        <h3>Eco</h3>
-                        <p style="height: 175px">Eco is a revolving 30 day server that wipes after 30 days. It is soley used to create incoming traffic and test new mods on. This brings regular traffic into Zombie Lynx Gaming so they can see all the other services we offer.</p>
-                        <a href="http://zlg.gg/eco" class="btn btn-primary mb-5" style="background-color: #FE842C; border:1px solid white">More info...</a>
-                    </div>
-                    <div class="server m-2">
-                        <img src="./assets/img/icons/emprion.png" alt="">
-                        <h3>Empyrion</h3>
-                        <p style="height: 175px">Empyrion was the first server I hosted on my dedicated network. This was the first server that got me interested in mods and Mod.io. The creators of the game gave the source code to two gentlement that took the game to another level called Reforged Eden.</p>
-                        <a href="http://zlg.gg/empyrion" class="btn btn-primary mb-5" style="background-color: #FE842C; border:1px solid white">More info...</a>
-                    </div>
-                </div>
-            </section>
-
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Daniel Henderson Portfolio</title>
+    <link rel="stylesheet" href="css/main.min.css" />
+    <!-- Bootstrap Font Icon CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <script
+      src="https://code.jquery.com/jquery-3.6.3.min.js"
+      integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body class="background text-primary">
+    <!-- Navbar -->
+    <nav
+      id="navbar"
+      class="navbar navbar-expand-lg font-monospace opacity-100 d-sm-none d-md-none d-lg-block"
+    >
+      <div class="container-fluid">
+        <div class="collapse navbar-collapse">
+          <ul class="navbar-nav me-auto align-items-center">
+            <li class="ms-5 me-3 px-2">
+              <a href="">
+                <img src="./img/dhlogo.png" alt="Home" style="height: 40px" />
+              </a>
+            </li>
+            <a href="mailto:djhindu17@gmail.com" class="text-decoration-none"
+              ><li>djhindu17@gmail.com</li></a
+            >
+          </ul>
         </div>
+        <div class="collapse navbar-collapse">
+          <ul class="navbar-nav ms-auto align-items-center">
+            <li class="nav-item px-2">
+              <a href="#about" class="nav-link">
+                <span class="text-secondary fs-6">01.</span>
+                <span class="text-primary fs-5">About</span>
+              </a>
+            </li>
+            <li class="nav-item px-2">
+              <a href="#experience" class="nav-link">
+                <span class="text-secondary fs-6">02.</span>
+                <span class="text-primary fs-5">Experience</span>
+              </a>
+            </li>
+            <li class="nav-item px-2">
+              <a href="#projects" class="nav-link">
+                <span class="text-secondary fs-6">03.</span>
+                <span class="text-primary fs-5">Projects</span>
+              </a>
+            </li>
+            <li class="nav-item px-2">
+              <a href="#contact" class="nav-link">
+                <span class="text-secondary fs-6">04.</span>
+                <span class="text-primary fs-5">Contact</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://drive.google.com/file/d/1eHKjGM0zswJBbSujt_TzZKw-Z0AfDh5k/view?usp=sharing"
+              >
+                <button class="btn btn-outline-secondary mx-4">Resume</button>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Mobile -->
+    <div class="col-sm-11 col-md-11 col-lg-10 col-xl-10 mx-auto me-0 p-0">
+      <!-- Navigation Bottom -->
+      <nav
+        class="fixed-bottom navbot d-flex justify-content-around mx-auto d-sm-none pt-2 pb-3"
+        style="margin: auto"
+      >
+        <a class="mx-auto text-center text-decoration-none" href="#about"
+          >About</a
+        >
+        <a class="mx-auto text-center text-decoration-none" href="#experience"
+          >Experience</a
+        >
+        <a class="mx-auto text-center text-decoration-none" href="#projects"
+          >Projects</a
+        >
+        <a class="mx-auto text-center text-decoration-none" href="#contact"
+          >Contact</a
+        >
+        <a
+          class="mx-auto text-center text-decoration-none"
+          href="https://drive.google.com/file/d/1eHKjGM0zswJBbSujt_TzZKw-Z0AfDh5k/view?usp=sharing"
+          >Resume</a
+        >
+      </nav>
+    </div>
+    <!-- Main Content -->
+    <div class="container">
+      <section class="social d-none d-md-block">
+        <ul class="mb-0 ps-2">
+          <!-- Github -->
+          <li class="my-4">
+            <a href="https://github.com/DanielHenderson-17">
+              <i class="bi bi-github fs-3"></i>
+            </a>
+          </li>
+          <!-- LinkedIn -->
+          <li class="my-4">
+            <a href="https://www.linkedin.com/in/danielhenderson17/">
+              <i class="bi bi-linkedin fs-3"></i>
+            </a>
+          </li>
+          <!-- Facebook -->
+          <li class="my-4">
+            <a href="https://www.facebook.com/djhindu17">
+              <i class="bi bi-facebook fs-3"></i>
+            </a>
+          </li>
+          <!-- Email -->
+          <li class="mt-4 email fs-3">
+            <a href="mailto:djhindu17@gmail.com">
+              <i class="bi bi-envelope"></i>
+            </a>
+          </li>
+        </ul>
+      </section>
+      <!-- Home -->
+      <section
+        id="home"
+        class="row justify-content-center align-items-center pb-5 mt-0"
+      >
+        <div class="col-lg-9 pb-5 pt-0 pt-md-5 mt-5">
+          <div>
+            <h1 class="mb-0 mt-0 mt-md-5 pt-5 mx-auto text-center display-1">
+              Daniel Henderson
+            </h1>
+            <h2
+              class="font-monospace mx-auto text-center d-none d-md-block"
+              style="font-size: 1vw"
+            >
+              <span>Software Developer</span>
+              <span class="text-secondary"> |</span>
+              <span>Designer</span>
+              <span class="text-secondary"> |</span>
+              <span>Freelancer</span>
+            </h2>
+            <h2
+              class="font-monospace mx-auto text-center d-sm-block d-md-none mb-4"
+              style="font-size: 4vw"
+            >
+              <span>Software Developer</span>
+              <span class="text-secondary"> |</span>
+              <span>Designer</span>
+              <span class="text-secondary"> |</span>
+              <span>Freelancer</span>
+            </h2>
+            <p class="mt-3 col-12 mx-auto text-center">
+              I am a
+              <b class="text-secondary">full stack software developer</b>
+              looking to bring my wireless project management experience to the
+              field of software engineering. I am eager to leverage
+              <b class="text-secondary">excellent communication</b>
+              , strong relationship
+              <b class="text-secondary">management skills</b>
+              , proven
+              <b class="text-secondary">problem solving</b>
+              strategies, and technical expertise to a software team through
+              development or networking.
+            </p>
+            <a href="https://www.zlg.gg" class="d-block mx-auto text-center">
+              <button class="btn btn-outline-secondary my-4 mx-auto">
+                What I've been working on!
+              </button>
+            </a>
+          </div>
+        </div>
+      </section>
+      <!-- About -->
+      <section
+        id="about"
+        class="row justify-content-center align-items-center mt-5 pb-5 mb-5"
+      >
+        <div class="col-12 col-md-9 pt-5">
+          <div class="d-md-block mx-auto d-lg-flex my-5">
+            <div class="col-12 col-md-8 mx-auto p-2">
+              <h3
+                class="font-monospace mb-3 justify-content-center justify-content-md-start d-flex"
+              >
+                <span
+                  class="text-secondary fs-md-5 fs-2 align-self-end me-1 my-auto"
+                  >01.</span
+                >
+                <span class="text-primary fs-md-2 fs-1 align-self-end"
+                  >About Me</span
+                >
+                <hr class="ms-2 align-self-center d-none d-md-block" />
+              </h3>
+              <div
+                class="col-12 px-1 mx-auto d-md-none d-flex justify-content-center mb-5"
+              >
+                <img
+                  src="./img/Portrait.png"
+                  alt=""
+                  class="rounded-1 frame col-10"
+                />
+              </div>
+              <p class="mb-3 fs-6 text-center text-md-start">
+                I initially started doing the free online learnings and got
+                hooked immediately on building web pages and applications. My
+                first taught projects were in
+                <span class="text-secondary">Python</span>
+                and then I eventually went on to learn
+                <span class="text-secondary">React and C#.</span>
+                I graduated at the
+                <span class="text-secondary">highest level</span>
+                at Coding Dojo.
+              </p>
+              <p class="mb-3 fs-6 text-center text-md-start">
+                Since then I have been writing code in my spare time and
+                brainstorming ideas for apps. I currently host
+                <span class="text-secondary">gaming servers</span>
+                via discord and have written a few apps to handle the traffic as
+                well.
+              </p>
+              <p class="mb-3 fs-6 text-center text-md-start">
+                I founded a company named
+                <span class="text-secondary">Zombie Lynx Gaming.</span>
+                This is where I host the servers. There are 16 servers of
+                different games that encompass many different apps or
+                technologies I either use or have created
+              </p>
+              <p class="mb-3 fs-6 text-center text-md-start">
+                Here are a few of the technologies I've used recently and
+                learned along the way:
+              </p>
+            </div>
 
-        <!-- Bootstrap Files -->
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-            integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
-            crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
-            integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
-            crossorigin="anonymous"></script>
+            <div class="col-4 px-1 my-auto">
+              <img
+                src="./img/Portrait.png"
+                alt=""
+                class="rounded-1 frame d-none d-md-block w-100"
+              />
+            </div>
+          </div>
+          <div>
+            <div class="d-md-block d-lg-flex mx-auto skills">
+              <div class="col-12 col-md-7 mx-0">
+                <h5 class="text-md-start text-center">Skills</h5>
+                <div class="d-flex">
+                  <ul class="col-3 fs-6 fs-md-*">
+                    <li class="text-secondary fw-bold">
+                      <span class="text-secondary">⮞ </span>C#
+                    </li>
+                    <li><span class="text-secondary">⮞ </span>Node.js</li>
+                    <li><span class="text-secondary">⮞ </span>Java</li>
+                    <li><span class="text-secondary">⮞ </span>MySQL</li>
+                    <li><span class="text-secondary">⮞ </span>Bootstrap</li>
+                  </ul>
+                  <ul class="col-3 font-monospace fs-6 fs-md-*">
+                    <li class="text-secondary fw-bold">
+                      <span class="text-secondary">⮞ </span>Python
+                    </li>
+                    <li><span class="text-secondary">⮞ </span>AWS</li>
+                    <li><span class="text-secondary">⮞ </span>Django</li>
+                    <li><span class="text-secondary">⮞ </span>WebRTC</li>
+                    <li><span class="text-secondary">⮞ </span>JQuery</li>
+                  </ul>
+                  <ul class="col-3 font-monospace fs-6 fs-md-*">
+                    <li class="text-secondary fw-bold">
+                      <span class="text-secondary">⮞ </span>React
+                    </li>
+                    <li><span class="text-secondary">⮞ </span>MongoDB</li>
+                    <li><span class="text-secondary">⮞ </span>Netlify</li>
+                    <li><span class="text-secondary">⮞ </span>Socket</li>
+                    <li><span class="text-secondary">⮞ </span>Firebase</li>
+                  </ul>
+                  <ul class="col-3 font-monospace fs-6 fs-md-*">
+                    <li class="text-secondary fw-bold">
+                      <span class="text-secondary">⮞ </span>JS (E6)
+                    </li>
+                    <li><span class="text-secondary">⮞ </span>Material</li>
+                    <li><span class="text-secondary">⮞ </span>Ruby</li>
+                    <li><span class="text-secondary">⮞ </span>Spring</li>
+                    <li><span class="text-secondary">⮞ </span>.Net</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Resume -->
+      <section
+        id="experience"
+        class="row justify-content-center align-items-center"
+      >
+        <div class="col-12 col-md-9">
+          <h3
+            class="font-monospace mb-3 justify-content-center justify-content-md-start d-flex mt-5"
+          >
+            <span
+              class="text-secondary fs-md-5 fs-2 align-self-end me-1 my-auto"
+              >02.</span
+            >
+            <span class="text-primary fs-md-2 fs-1 align-self-end"
+              >Experience</span
+            >
+            <hr class="ms-2 align-self-center d-none d-md-block" />
+          </h3>
+          <div>
+            <nav class="justify-content-center d-flex my-5 font-monospace">
+              <div class="nav nav-tabs fs-6 col" id="nav-tab" role="tablist">
+                <button
+                  class="nav-link active col-4 p-1"
+                  id="nav-glow-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#nav-glow"
+                  type="button"
+                  role="tab"
+                  aria-controls="nav-glow"
+                  aria-selected="true"
+                >
+                  Glow Restoration
+                </button>
+                <button
+                  class="nav-link col-4 p-1"
+                  id="nav-jag-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#nav-jag"
+                  type="button"
+                  role="tab"
+                  aria-controls="nav-jag"
+                  aria-selected="false"
+                >
+                  JAG Resources
+                </button>
+                <button
+                  class="nav-link col-4 p-1"
+                  id="nav-platinum-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#nav-platinum"
+                  type="button"
+                  role="tab"
+                  aria-controls="nav-platinum"
+                  aria-selected="false"
+                >
+                  Platinum Communications
+                </button>
+              </div>
+            </nav>
+            <div class="tab-content" id="nav-tabContent">
+              <div
+                class="tab-pane fade show active"
+                id="nav-glow"
+                role="tabpanel"
+                aria-labelledby="nav-glow-tab"
+                tabindex="0"
+              >
+                <h5>
+                  <span class="text-primary fs-5">Engineer</span>
+                  <span class="text-secondary fs-5">@ Glow Restoration</span>
+                </h5>
+                <h6 class="font-monospace">December 2020 - Present</h6>
+                <ul class="fs-6 accolades ps-4 ms-3">
+                  <li>
+                    Leading development of “Glow” app for Texas home design with
+                    the following key features: being able to sign all legal
+                    documents on sight, take photos, and allow the
+                    representative to use a grid to draw a sketch of the damaged
+                    property.
+                  </li>
+                  <li>
+                    Developed Glow app using React.js framework with Node.js
+                    back end.
+                  </li>
+                  <li>
+                    Using multiple API calls to allow THD to utilize legacy
+                    software where able.
+                  </li>
+                  <li>
+                    Created validation and user accounts for representatives to
+                    receive order number and complete the entire process while
+                    logging under representatives credentials for later query on
+                    the back end.
+                  </li>
+                </ul>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="nav-jag"
+                role="tabpanel"
+                aria-labelledby="nav-jag-tab"
+                tabindex="0"
+              >
+                <h5>
+                  <span class="text-primary fs-5">Project Manager</span>
+                  <span class="text-secondary fs-5">@ JAG Resources</span>
+                </h5>
+                <h6 class="font-monospace">November 2017 - June 2020</h6>
+                <ul class="fs-6 accolades ps-4 ms-3">
+                  <li>
+                    Led the Lightning Division across 8 locations and 65
+                    employees including inventory/procurement management,
+                    managing accounting & payroll, facilitated hiring and
+                    training, and creation of organizational process assets and
+                    documentation
+                  </li>
+                  <li>
+                    Led the planning and execution of Texas A&M Fiber install
+                    which resulted in earning 35% margin on a $300,000 project
+                    (spanning only 20 days).
+                  </li>
+                  <li>
+                    Improved process inefficiencies and introduced new growth
+                    strategies that earned the company $4M revenue for year 2018
+                    (on a $2.5M budget).
+                  </li>
+                </ul>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="nav-platinum"
+                role="tabpanel"
+                aria-labelledby="nav-platinum-tab"
+                tabindex="0"
+              >
+                <h5>
+                  <span class="text-primary fs-5">
+                    Project Manager & Engineer
+                  </span>
+                  <span class="text-secondary fs-5">
+                    @ Platinum Communications
+                  </span>
+                </h5>
+                <h6 class="font-monospace">March 2008 - November 2017</h6>
+                <ul class="fs-6 accolades ps-4 ms-3">
+                  <li>
+                    Managed daily operations of 10 crews including but not
+                    limited to standard ATT & TMO market upgrades.
+                  </li>
+                  <li>
+                    Performed PM and CM roles for 554 sites across Texas and
+                    Oklahoma (IE. scheduling, reporting, payroll, management of
+                    various projects simultaneously, supplying both the customer
+                    and employees with necessary tools to complete projects).
+                  </li>
+                  <li>
+                    Performed all ATT and TMO closeout (COP) procedures on over
+                    500+ sites prior to company invoicing and project completion
+                    (Using Siterra, Dropbox, IPM, and NOLS to complete said
+                    projects).
+                  </li>
+                  <li>
+                    Worked closely with Goodman, Ericsson, ATT, TMO, Parsons,
+                    and Nokia Siemens personnel to complete projects on time
+                    exceeding industry demand.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Portfolio -->
+      <section id="projects" class="row justify-content-center mt-5 pt-5">
+        <div class="col-12 col-md-9">
+          <h3
+            class="font-monospace mb-3 justify-content-center justify-content-md-start d-flex mt-5"
+          >
+            <span
+              class="text-secondary fs-md-5 fs-2 align-self-end me-1 my-auto"
+              >03.</span
+            >
+            <span class="text-primary fs-md-2 fs-2 align-self-end"
+              >Things I've Built</span
+            >
+            <hr class="ms-2 align-self-center d-none d-md-block" />
+          </h3>
+          <div>
+            <!-- Featured Project -->
+            <div class="d-flex my-5">
+              <img
+                src="./img/blissthumb.gif"
+                alt=""
+                class="col-6 h-75 feature-thumb rounded d-none d-md-block"
+              />
+              <div class="text-end col-12 col-md-6">
+                <p
+                  class="font-monospace mb-0 me-md-5 me-0 text-secondary pe-3 d-none d-md-block"
+                >
+                  Featured Project
+                </p>
+                <h3 class="mb-2 me-md-5 me-0 pe-3 d-none d-md-block">
+                  Bliss Relaxation App
+                </h3>
 
-        <!-- Vendor JS Files -->
-        <script src="assets/vendor/aos/aos.js"></script>
-        <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-        <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-        <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-        <script src="assets/vendor/php-email-form/validate.js"></script>
-        <script src="assets/vendor/purecounter/purecounter.js"></script>
-        <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-        <script src="assets/vendor/typed.js/typed.min.js"></script>
-        <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+                <div class="p-3 rounded text-end description">
+                  <span class="d-block d-md-none text-secondary font-monospace"
+                    >Featured Project</span
+                  >
+                  <span class="d-block d-md-none mb-3 fs-2"
+                    >Bliss Relaxation App</span
+                  >
+                  <p>
+                    This is a pure
+                    <span class="text-secondary">javascript</span>
+                    app I made for relaxation. You can select between beach,
+                    rain, forest, harp, tibet bowl, and lofi hip-hop. I wanted
+                    to play around with flex a bit and data manipulation through
+                    javascript.
+                  </p>
+                  <img
+                    src="./img/blissthumb.gif"
+                    alt=""
+                    class="col-12 mx-auto feature-thumb rounded d-block d-md-none mb-2 mt-4"
+                  />
+                  <ul
+                    class="description-list justify-content-end me-md-5 me-0 font-monospace text-light d-flex d-md-none"
+                  >
+                    <li>Javascript</li>
+                    <li>Bootstrap</li>
+                  </ul>
+                  <ul
+                    class="description-list d-flex justify-content-end mb-0 me-md-5 me-0 font-monospace text-primary d-flex d-md-none"
+                  >
+                    <li>
+                      <a href="https://github.com/DanielHenderson-17/Bliss">
+                        <i class="bi bi-github"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://bliss-app.netlify.app/">
+                        <i class="bi bi-box-arrow-up-right"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <ul
+                  class="description-list justify-content-end me-md-5 mt-2 me-0 font-monospace text-light pe-3 d-none d-md-flex"
+                >
+                  <li>Javascript</li>
+                  <li>Bootstrap</li>
+                </ul>
+                <ul
+                  class="description-list d-flex justify-content-end me-md-5 me-0 font-monospace text-primary pe-3 d-none d-md-flex"
+                >
+                  <li>
+                    <a href="https://github.com/DanielHenderson-17/Bliss">
+                      <i class="bi bi-github"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://bliss-app.netlify.app/">
+                      <i class="bi bi-box-arrow-up-right"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- Featured Project -->
+            <!-- desktop -->
+            <div class="d-md-flex my-5 py-3 d-none">
+              <div class="text-start col-6">
+                <p class="font-monospace mb-0 ms-5 text-secondary ps-3">
+                  Featured Project
+                </p>
+                <h3 class="mb-3 ms-5 ps-3">Apiflix</h3>
+                <p class="p-3 description-second rounded">
+                  APIFLIX is a
+                  <span class="text-secondary">React app</span>
+                  I made using TMDB.org
+                  <span class="text-secondary">API</span>
+                  and using
+                  <span class="text-secondary">Google Firebase.</span>
+                  It is a clone of Netflix. Each category maps through the api
+                  to show the results for that search result.
+                </p>
+                <ul
+                  class="ps-5 description-list d-flex justify-content-start ms-2 font-monospace text-light"
+                >
+                  <li>React</li>
+                  <li>Bootstrap</li>
+                  <li>API</li>
+                  <li>Firebase</li>
+                </ul>
+                <ul
+                  class="description-list d-flex justify-content-start ms-4 font-monospace text-primary"
+                >
+                  <li>
+                    <a href="https://github.com/DanielHenderson-17/apiflix">
+                      <i class="bi bi-github"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://apiflix.netlify.app/">
+                      <i class="bi bi-box-arrow-up-right"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <img
+                src="./img/apiflixthumb.png"
+                alt=""
+                class="col-6 h-75 rounded feature-thumb"
+              />
+            </div>
+            <!-- mobile -->
+            <div class="d-flex d-md-none my-5">
+              <div class="text-start col-12 col-md-6">
+                <div class="p-3 rounded text-start description">
+                  <span class="d-block d-md-none text-secondary font-monospace"
+                    >Featured Project</span
+                  >
+                  <span class="d-block d-md-none mb-3 fs-2">Apiflix</span>
+                  <p>
+                    Apiflix is a
+                    <span class="text-secondary">React app</span>
+                    I made using TMDB.org
+                    <span class="text-secondary">API</span>
+                    and using
+                    <span class="text-secondary">Google Firebase.</span>
+                    It is a clone of Netflix. Each category maps through the api
+                    to show the results for that search result.
+                  </p>
+                  <img
+                    src="./img/apiflixthumb.png"
+                    alt=""
+                    class="col-12 mx-auto feature-thumb rounded d-block d-md-none mb-2 mt-4"
+                  />
+                  <ul
+                    class="description-list justify-content-start ms-0 p-0 font-monospace text-light d-flex d-md-none"
+                  >
+                    <li>Javascript</li>
+                    <li>Bootstrap</li>
+                    <li>Firbase</li>
+                  </ul>
+                  <ul
+                    class="description-list mb-0 d-flex justify-content-start p-0 font-monospace text-primary d-flex d-md-none"
+                  >
+                    <li>
+                      <a href="https://github.com/DanielHenderson-17/apiflix">
+                        <i class="bi bi-github"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://apiflix.netlify.app/">
+                        <i class="bi bi-box-arrow-up-right"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- Featured Project -->
+            <div class="d-flex my-5">
+              <img
+                src="./img/expenseitthumb.png"
+                alt=""
+                class="col-6 h-75 feature-thumb rounded d-none d-md-block"
+              />
+              <div class="text-end col-12 col-md-6">
+                <p
+                  class="font-monospace mb-0 me-md-5 me-0 text-secondary pe-3 d-none d-md-block"
+                >
+                  Featured Project
+                </p>
+                <h3 class="mb-2 me-md-5 me-0 pe-3 d-none d-md-block">
+                  Expense It
+                </h3>
 
-        <!-- Template Main JS File -->
-        <script src="assets/js/main.js"></script>
-</body>
-
+                <div class="p-3 rounded text-end description">
+                  <span class="d-block d-md-none text-secondary font-monospace"
+                    >Featured Project</span
+                  >
+                  <span class="d-block d-md-none mb-3 fs-2">Expense It</span>
+                  <p>
+                    Expense It! is a front end
+                    <span class="text-secondary">React App</span>
+                    I made that utilizes voice recognition through Speechly,
+                    <span class="text-secondary">
+                      local storage, context api, and custom hooks.
+                    </span>
+                    Users can create and delete for personal budget.
+                  </p>
+                  <img
+                    src="./img/expenseitthumb.png"
+                    alt=""
+                    class="col-12 mx-auto feature-thumb rounded d-block d-md-none mb-2 mt-4"
+                  />
+                  <ul
+                    class="description-list justify-content-end me-md-5 me-0 font-monospace text-light d-flex d-md-none"
+                  >
+                    <li>Javascript</li>
+                    <li>Bootstrap</li>
+                    <li>Speechly</li>
+                  </ul>
+                  <ul
+                    class="description-list d-flex justify-content-end mb-0 me-md-5 me-0 font-monospace text-primary d-flex d-md-none"
+                  >
+                    <li>
+                      <a href="https://github.com/DanielHenderson-17/ExpenseIt">
+                        <i class="bi bi-github"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://expense-it1.netlify.app/">
+                        <i class="bi bi-box-arrow-up-right"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <ul
+                  class="description-list justify-content-end me-md-5 mt-2 me-0 font-monospace text-light pe-3 d-none d-md-flex"
+                >
+                  <li>Javascript</li>
+                  <li>Bootstrap</li>
+                  <li>Speechly</li>
+                </ul>
+                <ul
+                  class="description-list d-flex justify-content-end me-md-5 me-0 font-monospace text-primary pe-3 d-none d-md-flex"
+                >
+                  <li>
+                    <a href="https://github.com/DanielHenderson-17/ExpenseIt">
+                      <i class="bi bi-github"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://expense-it1.netlify.app/">
+                      <i class="bi bi-box-arrow-up-right"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="row justify-content-center mt-md-5 mt-0 pt-5">
+        <div class="col-12 col-md-9">
+          <h3 class="justify-content-center text-center">
+            <span>Other Noteworthy Projects</span>
+          </h3>
+          <a
+            href="danielhenderson17.com/projects"
+            class="text-decoration-none text-secondary"
+          >
+            <p class="font-monospace justify-content-center text-center">
+              view archive
+            </p>
+          </a>
+          <div class="container">
+            <!-- Row -->
+            <div class="d-md-flex d-block justify-content-between">
+              <!-- Kryptokit -->
+              <div class="col m-2 p-3 rounded additional" style="height: 300px">
+                <div class="d-flex justify-content-end">
+                  <a href="https://github.com/DanielHenderson-17/kryptokit"
+                    ><i class="bi bi-github fs-4 mx-2"></i
+                  ></a>
+                  <a href="https://www.youtube.com/watch?v=oP5AenDdqw8"
+                    ><i class="bi bi-youtube fs-4 mx-2"></i
+                  ></a>
+                </div>
+                <h4 class="mt-4">Kryptokit</h4>
+                <p class="fs-6" style="height: 130px">
+                  A <span class="text-secondary">React App</span> I made with a
+                  team that utilizes login and registration. It displays crypto
+                  currency prices you can buy/trade/sell through an
+                  <span class="text-secondary">API</span>.
+                </p>
+                <ul
+                  class="d-flex justify-content-start px-0 font-monospace text-light"
+                >
+                  <li class="me-2">React</li>
+                  <li class="mx-2">API</li>
+                  <li class="mx-2">AWS</li>
+                </ul>
+              </div>
+              <!-- Weather App -->
+              <div class="col m-2 p-3 rounded additional" style="height: 300px">
+                <div class="d-flex justify-content-end">
+                  <a href="https://github.com/DanielHenderson-17/weatherapp"
+                    ><i class="bi bi-github fs-4 mx-2"></i
+                  ></a>
+                  <a href="https://weather-app17.netlify.app/"
+                    ><i class="bi bi-box-arrow-up-right fs-4 mx-2"></i
+                  ></a>
+                </div>
+                <h4 class="mt-4">Weather App</h4>
+                <p class="fs-6" style="height: 130px">
+                  A <span class="text-secondary">Javascript</span> app I made
+                  that shows the 7 day forecast called from an
+                  <span class="text-secondary">API</span> you use to set your
+                  location.
+                </p>
+                <ul
+                  class="d-flex justify-content-start px-0 font-monospace text-light"
+                >
+                  <li class="me-2">Javascript</li>
+                  <li class="mx-2">API</li>
+                </ul>
+              </div>
+              <!-- Prattle Chat -->
+              <div class="col m-2 p-3 rounded additional" style="height: 300px">
+                <div class="d-flex justify-content-end">
+                  <a href="https://github.com/DanielHenderson-17/prattlechatapp"
+                    ><i class="bi bi-github fs-4 mx-2"></i
+                  ></a>
+                  <a href="https://prattle.netlify.app/"
+                    ><i class="bi bi-box-arrow-up-right fs-4 mx-2"></i
+                  ></a>
+                </div>
+                <h4 class="mt-4">Prattle Chat</h4>
+                <p class="fs-6" style="height: 130px">
+                  A <span class="text-secondary">React App</span> that uses
+                  <span class="text-secondary">Chat Engine API</span> Uses
+                  <span class="text-secondary">Auth0</span> to login through
+                  Facebook or Google to chat with friends across the web.
+                </p>
+                <ul
+                  class="d-flex justify-content-start px-0 font-monospace text-light"
+                >
+                  <li class="me-2">React</li>
+                  <li class="mx-2">API</li>
+                  <li class="mx-2">Auth0</li>
+                </ul>
+              </div>
+            </div>
+            <div class="d-md-flex d-none justify-content-between">
+              <!-- Things to Do -->
+              <div class="col m-2 p-3 rounded additional" style="height: 300px">
+                <div class="d-flex justify-content-end">
+                  <a href="https://github.com/DanielHenderson-17/thingstodo"
+                    ><i class="bi bi-github fs-4 mx-2"></i
+                  ></a>
+                  <a href="https://things-to-do1.netlify.app/"
+                    ><i class="bi bi-box-arrow-up-right fs-4 mx-2"></i
+                  ></a>
+                </div>
+                <h4 class="mt-4">Things to Do</h4>
+                <p class="fs-6" style="height: 130px">
+                  A <span class="text-secondary">React App</span> using
+                  <span class="text-secondary">useEffect and useState</span> to
+                  save list that is made across reloads.
+                </p>
+                <ul
+                  class="d-flex justify-content-start px-0 font-monospace text-light"
+                >
+                  <li class="me-2">React</li>
+                  <li class="mx-2">useEffect</li>
+                  <li class="mx-2">useState</li>
+                </ul>
+              </div>
+              <!-- Simply N' Stock -->
+              <div class="col m-2 p-3 rounded additional" style="height: 300px">
+                <div class="d-flex justify-content-end">
+                  <a href="https://github.com/DanielHenderson-17/simplynstock"
+                    ><i class="bi bi-github fs-4 mx-2"></i
+                  ></a>
+                  <a href="https://www.youtube.com/watch?v=xORgKsroVvI"
+                    ><i class="bi bi-youtube fs-4 mx-2"></i
+                  ></a>
+                </div>
+                <h4 class="mt-4">Simply N' Stock</h4>
+                <p class="fs-6" style="height: 130px">
+                  A <span class="text-secondary">React App</span> for creating a
+                  generic inventory system for companies to utilize.
+                </p>
+                <ul
+                  class="d-flex justify-content-start px-0 font-monospace text-light"
+                >
+                  <li class="me-2">React</li>
+                  <li class="mx-2">API</li>
+                </ul>
+              </div>
+              <!-- Atten Destroyer -->
+              <div class="col m-2 p-3 rounded additional" style="height: 300px">
+                <div class="d-flex justify-content-end">
+                  <a href="https://github.com/DanielHenderson-17/Aten-Destroyer"
+                    ><i class="bi bi-github fs-4 mx-2"></i
+                  ></a>
+                </div>
+                <h4 class="mt-4">Atten Destroyer</h4>
+                <p class="fs-6" style="height: 130px">
+                  A <span class="text-secondary">C#</span> that is a game made
+                  in Visual Studio.
+                </p>
+                <ul
+                  class="d-flex justify-content-start px-0 font-monospace text-light"
+                >
+                  <li class="me-2">C#</li>
+                  <li class="mx-2">Visual Studio</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Contact -->
+      <section
+        id="contact"
+        class="row justify-content-center align-items-center mt-5"
+      >
+        <div class="col-12 col-md-9">
+          <h3
+            class="font-monospace mb-3 justify-content-center justify-content-md-start d-flex"
+          >
+            <span
+              class="text-secondary fs-md-5 fs-2 align-self-end me-1 my-auto"
+              >04.</span
+            >
+            <span class="text-primary fs-md-2 fs-1 align-self-end"
+              >Get in Touch</span
+            >
+            <hr class="ms-2 align-self-center d-none d-md-block" />
+          </h3>
+          <p class="text-center py-2 col-11 col-md-8 mx-auto">
+            My inbox is always open and I check it regularly for any
+            opportunities. Wether you have a question or just want to say hi, I
+            will get back with you as soon as I am available!
+          </p>
+          <div class="text-center pt-3 mb-5">
+            <a href="mailto:djhindu17@gmail.com"
+              ><button class="btn btn-outline-secondary mx-auto fs-5">
+                Say Hello
+              </button></a
+            >
+          </div>
+        </div>
+      </section>
+      <footer class="text-center font-monospace">
+        <p class="my-0">Designed & Built by Daniel Henderson</p>
+        <p>© 2023</p>
+      </footer>
+    </div>
+    <!-- Bootstrap Files -->
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="./js/script.js"></script>
+    <!-- JQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.3.min.js"
+      integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

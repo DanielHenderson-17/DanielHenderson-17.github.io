@@ -1,0 +1,218 @@
+$primary: #f4f4f4;
+$secondary: #fe842c;
+$dark: rgb(53, 54, 58);
+$light: rgb(165, 167, 165);
+
+body {
+  background: rgb(53, 54, 58);
+  background: linear-gradient(
+    313deg,
+    rgba(53, 54, 58, 1) 0%,
+    rgb(38, 38, 41) 100%
+  );
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+ul {
+  position: relative;
+  list-style: none;
+}
+
+// Navigation
+#navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: block;
+  transition: top 0.3s;
+  background: rgb(53, 54, 58, 1) !important;
+  background: linear-gradient(
+    313deg,
+    rgba(53, 54, 58, 1) 0%,
+    rgb(38, 38, 41, 1) 100%
+  ) !important;
+  box-shadow: 0 1px 15px 0px rgb(32, 31, 31);
+  z-index: 2;
+}
+
+.navbot {
+  background: rgb(53, 54, 58, 1) !important;
+  background: linear-gradient(
+    313deg,
+    rgba(53, 54, 58, 1) 0%,
+    rgb(38, 38, 41, 1) 100%
+  ) !important;
+  box-shadow: 0 1px 15px 0px rgb(32, 31, 31);
+}
+
+.nav:hover {
+  color: $secondary;
+}
+
+// Contact
+.social {
+  position: fixed;
+  bottom: 0px;
+  left: 40px;
+  right: auto;
+  z-index: 10;
+}
+
+i:hover {
+  color: $secondary;
+  transform: translate(0, -5px);
+  transition: 0.3s;
+}
+
+.email::after {
+  content: "";
+  display: block;
+  height: 120px;
+  width: 1px;
+  margin: 20px auto 0 auto;
+  background-color: $secondary;
+}
+
+// Section
+#home {
+  height: 100vh;
+}
+
+#about,
+#experience,
+#contact {
+  height: 100vh;
+}
+
+hr {
+  width: 200px;
+  height: 1px;
+  border-top: 1px solid $secondary !important;
+  opacity: 100% !important;
+}
+
+.frame {
+  box-shadow: 15px 15px 0 -3px rgb(53, 54, 58), 15px 15px 0 0 $secondary;
+  transition: box-shadow ease-in 150ms;
+
+  &:hover {
+    box-shadow: 20px 20px 0 -3px rgb(53, 54, 58), 20px 20px 0 0 $secondary;
+    transition: box-shadow ease-in 150ms;
+  }
+}
+
+// Experience
+.experience {
+  //   width: 100%;
+  width: 300px;
+}
+
+.nav-link {
+  color: $light !important;
+}
+
+.nav-link.active {
+  background-color: $dark !important;
+  border: 1px solid rgb(27, 27, 27) !important;
+  color: $secondary !important;
+}
+
+.nav-tabs {
+  border-color: $dark !important;
+  border-bottom: 1px solid rgb(27, 27, 27) !important;
+}
+
+.accolades li {
+  margin: 10px 0;
+
+  &::before {
+    font-family: monospace;
+    color: $secondary;
+    content: "⮞";
+    position: absolute;
+    left: 0;
+  }
+}
+
+// Projects
+.description {
+  position: relative;
+  right: 50px;
+  background-color: rgb(92, 91, 91);
+}
+
+.description-list li {
+  margin: 0 10px !important;
+}
+.description-second {
+  position: relative;
+  left: 45px;
+  background-color: rgb(92, 91, 91);
+}
+.description {
+  box-shadow: 6px 6px 20px 2px rgb(34, 34, 34);
+}
+.description-second {
+  box-shadow: -6px 6px 20px 2px rgb(34, 34, 34);
+}
+.feature-thumb {
+  box-shadow: -6px 6px 20px 2px rgb(22, 22, 22);
+}
+.additional {
+  background-color: rgb(92, 91, 91);
+  box-shadow: 6px 6px 20px 2px rgb(34, 34, 34) !important;
+  &:hover {
+    transform: translate(0, -5px);
+    transition: 0.3s;
+    cursor: pointer;
+  }
+}
+
+/* Custom CSS for mobile view */
+@media (max-width: 767px) {
+  .skills ul {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .skills li::before {
+    visibility: hidden;
+  }
+}
+
+@media (max-width: 767px) {
+  /* Projects Section */
+  .description {
+    position: relative;
+    right: 0px;
+    background: linear-gradient(
+      313deg,
+      rgb(8, 8, 8) 5%,
+      rgba(38, 38, 42, 1) 50%,
+      rgb(8, 8, 8) 95%
+    );
+    backdrop-filter: blur(10px);
+    box-shadow: 2px 2px 2px 0 rgb(20, 20, 20);
+  }
+  .additional {
+    background: linear-gradient(
+      313deg,
+      rgb(8, 8, 8) 5%,
+      rgba(38, 38, 42, 1) 50%,
+      rgb(8, 8, 8) 95%
+    );
+    backdrop-filter: blur(10px);
+    box-shadow: 2px 2px 2px 0 rgb(20, 20, 20);
+  }
+  #about,
+  #experience,
+  #contact {
+    height: auto;
+  }
+}
+// Contact
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
